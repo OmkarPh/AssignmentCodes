@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+		<item value="E:\AssignmentCodes\Java_Projects\AlgorithmicToolbox\week2_algorithmic_warmup"/>
+		<item value="E:\AssignmentCodes\Java_Projects\AlgorithmicToolbox"/>
+		<item value="E:\Assignment Codes\Java_Projects\UCSDUnfoldingMaps"/>
+		<item value="C:\Users\ADMIN\Downloads\javaarrayslistsdata-masters"/>
+		<item value="E:\Assignment Codes\Java_Projects\MOOCTextEditor"/>
+		<item value="E:\Programming assignments\Java\In-Patient-Mangement-System-master"/>
+		<item value="E:\Eclipse Workspace\Chess Advanced"/>
+		<item value="E:\Eclipse Workspace\Calculator"/>
+		<item value="E:\Eclipse Workspace\Chess"/>
+	</list>
+	<section name="NewWizardAction">
+		<item key="NewWizardSelectionPage.STORE_SELECTED_ID" value="org.eclipse.fx.ide.jdt.ui.javafx"/>
+		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+			<item value="org.eclipse.jdt.ui.java"/>
+			<item value="org.eclipse.fx.ide"/>
+		</list>
+	</section>
+</section>

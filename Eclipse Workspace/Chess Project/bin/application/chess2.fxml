@@ -1,0 +1,1039 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+
+<AnchorPane prefHeight="650.0" prefWidth="618.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Coinhighlighter">
+   <children>
+      <HBox layoutX="5.0" layoutY="3.0" prefHeight="75.0" prefWidth="508.0">
+         <children>
+            <Label fx:id="a1" alignment="BOTTOM_CENTER" contentDisplay="GRAPHIC_ONLY" onMouseClicked="#highlight" prefHeight="75.0" prefWidth="75.0" text="1">
+               <effect>
+                  <DropShadow color="#6b5e5e" height="12.1" radius="4.75" spread="0.1" width="8.9" />
+               </effect>
+               <styleClass>
+                  <String fx:value="box" />
+                  <String fx:value="white" />
+               </styleClass>
+             <graphic>
+            <ImageView fx:id="j1" fitHeight="75.0" fitWidth="75.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@hookB.png" />
+                     </image></ImageView>
+            </graphic>
+            </Label>
+            <Label fx:id="b1" alignment="CENTER" contentDisplay="GRAPHIC_ONLY" layoutX="10.0" layoutY="10.0" onMouseClicked="#highlight" prefHeight="75.0" prefWidth="75.0" text="2" textAlignment="CENTER">
+               <effect>
+                  <DropShadow color="#6b5e5e" height="12.1" radius="4.75" spread="0.1" width="8.9" />
+               </effect>
+               <styleClass>
+                  <String fx:value="box" />
+                  <String fx:value="black" />
+               </styleClass>
+               <graphic>
+            <ImageView fx:id="j2" fitHeight="75.0" fitWidth="75.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@knightB.png" />
+                     </image></ImageView>
+            </graphic>
+            </Label>
+            <Label fx:id="c1" alignment="CENTER" contentDisplay="GRAPHIC_ONLY" layoutX="10.0" layoutY="10.0" prefHeight="75.0" prefWidth="75.0" text="3" textAlignment="CENTER">
+               <effect>
+                  <DropShadow color="#6b5e5e" height="12.1" radius="4.75" spread="0.1" width="8.9" />
+               </effect>
+               <styleClass>
+                  <String fx:value="box" />
+                  <String fx:value="white" />
+               </styleClass>
+               <graphic>
+            <ImageView fx:id="j3" fitHeight="75.0" fitWidth="75.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@bishopB.png" />
+                     </image></ImageView>
+            </graphic>
+            </Label>
+            <Label fx:id="d1" alignment="CENTER" contentDisplay="GRAPHIC_ONLY" layoutX="85.0" layoutY="10.0" prefHeight="75.0" prefWidth="75.0" text="4" textAlignment="CENTER">
+               <effect>
+                  <DropShadow color="#6b5e5e" height="12.1" radius="4.75" spread="0.1" width="8.9" />
+               </effect>
+               <styleClass>
+                  <String fx:value="box" />
+                  <String fx:value="black" />
+               </styleClass>
+               <graphic>
+            <ImageView fx:id="j4" fitHeight="75.0" fitWidth="75.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@kingB.png" />
+                     </image></ImageView>
+            </graphic>
+            </Label>
+            <Label fx:id="e1" alignment="CENTER" contentDisplay="GRAPHIC_ONLY" layoutX="160.0" layoutY="10.0" prefHeight="75.0" prefWidth="75.0" text="5" textAlignment="CENTER">
+               <effect>
+                  <DropShadow color="#6b5e5e" height="12.1" radius="4.75" spread="0.1" width="8.9" />
+               </effect>
+               <styleClass>
+                  <String fx:value="box" />
+                  <String fx:value="white" />
+               </styleClass>
+               <graphic>
+            <ImageView fx:id="j5" fitHeight="75.0" fitWidth="75.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@queenB.png" />
+                     </image></ImageView>
+            </graphic>
+            </Label>
+            <Label fx:id="f1" alignment="CENTER" contentDisplay="GRAPHIC_ONLY" layoutX="235.0" layoutY="10.0" prefHeight="75.0" prefWidth="75.0" text="6" textAlignment="CENTER">
+               <effect>
+                  <DropShadow color="#6b5e5e" height="12.1" radius="4.75" spread="0.1" width="8.9" />
+               </effect>
+               <styleClass>
+                  <String fx:value="box" />
+                  <String fx:value="black" />
+               </styleClass>
+               <graphic>
+            <ImageView fx:id="j6" fitHeight="75.0" fitWidth="75.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@bishopB.png" />
+                     </image></ImageView>
+            </graphic>
+            </Label>
+            <Label fx:id="g1" alignment="CENTER" contentDisplay="GRAPHIC_ONLY" layoutX="235.0" layoutY="10.0" prefHeight="75.0" prefWidth="75.0" text="7" textAlignment="CENTER">
+               <effect>
+                  <DropShadow color="#6b5e5e" height="12.1" radius="4.75" spread="0.1" width="8.9" />
+               </effect>
+               <styleClass>
+                  <String fx:value="box" />
+                  <String fx:value="white" />
+               </styleClass>
+               <graphic>
+            <ImageView fx:id="j7" fitHeight="75.0" fitWidth="75.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@knightB.png" />
+                     </image></ImageView>
+            </graphic>
+            </Label>
+            <Label fx:id="h1" alignment="CENTER" contentDisplay="GRAPHIC_ONLY" layoutX="235.0" layoutY="10.0" prefHeight="75.0" prefWidth="75.0" text="8" textAlignment="CENTER">
+               <effect>
+                  <DropShadow color="#6b5e5e" height="12.1" radius="4.75" spread="0.1" width="8.9" />
+               </effect>
+               <styleClass>
+                  <String fx:value="box" />
+                  <String fx:value="black" />
+               </styleClass>
+               <graphic>
+            <ImageView fx:id="j8" fitHeight="75.0" fitWidth="75.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@hookB.png" />
+                     </image></ImageView>
+            </graphic>
+            </Label>
+         </children>
+      </HBox>
+      <HBox layoutX="5.0" layoutY="82.0" prefHeight="75.0" prefWidth="600.0">
+         <children>
+            <Label fx:id="a2" alignment="CENTER" contentDisplay="GRAPHIC_ONLY" prefHeight="75.0" prefWidth="75.0" text="9" textAlignment="CENTER">
+               <effect>
+                  <DropShadow color="#6b5e5e" height="12.1" radius="4.75" spread="0.1" width="8.9" />
+               </effect>
+               <styleClass>
+                  <String fx:value="box" />
+                  <String fx:value="black" />
+               </styleClass>
+               <graphic>
+            <ImageView fx:id="j9" fitHeight="75.0" fitWidth="75.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@pawnB.png" />
+                     </image></ImageView>
+            </graphic>
+            </Label>
+            <Label fx:id="b2" alignment="CENTER" contentDisplay="GRAPHIC_ONLY" layoutX="10.0" layoutY="10.0" prefHeight="75.0" prefWidth="75.0" text="10" textAlignment="CENTER">
+               <effect>
+                  <DropShadow color="#6b5e5e" height="12.1" radius="4.75" spread="0.1" width="8.9" />
+               </effect>
+               <styleClass>
+                  <String fx:value="box" />
+                  <String fx:value="white" />
+               </styleClass>
+               <graphic>
+            <ImageView fx:id="j10" fitHeight="75.0" fitWidth="75.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@pawnB.png" />
+                     </image></ImageView>
+            </graphic>
+            </Label>
+            <Label fx:id="c2" alignment="CENTER" contentDisplay="GRAPHIC_ONLY" layoutX="10.0" layoutY="10.0" prefHeight="75.0" prefWidth="75.0" text="11" textAlignment="CENTER">
+               <effect>
+                  <DropShadow color="#6b5e5e" height="12.1" radius="4.75" spread="0.1" width="8.9" />
+               </effect>
+               <styleClass>
+                  <String fx:value="box" />
+                  <String fx:value="black" />
+               </styleClass>
+               <graphic>
+            <ImageView fx:id="j11" fitHeight="75.0" fitWidth="75.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@pawnB.png" />
+                     </image></ImageView>
+            </graphic>
+            </Label>
+            <Label fx:id="d2" alignment="CENTER" contentDisplay="GRAPHIC_ONLY" layoutX="160.0" layoutY="10.0" prefHeight="75.0" prefWidth="75.0" text="12" textAlignment="CENTER">
+               <effect>
+                  <DropShadow color="#6b5e5e" height="12.1" radius="4.75" spread="0.1" width="8.9" />
+               </effect>
+               <styleClass>
+                  <String fx:value="box" />
+                  <String fx:value="white" />
+               </styleClass>
+               <graphic>
+            <ImageView fx:id="j12" fitHeight="75.0" fitWidth="75.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@pawnB.png" />
+                     </image></ImageView>
+            </graphic>
+            </Label>
+            <Label alignment="CENTER" contentDisplay="GRAPHIC_ONLY" layoutX="235.0" layoutY="10.0" prefHeight="75.0" prefWidth="75.0" text="13" textAlignment="CENTER">
+               <effect>
+                  <DropShadow color="#6b5e5e" height="12.1" radius="4.75" spread="0.1" width="8.9" />
+               </effect>
+               <styleClass>
+                  <String fx:value="box" />
+                  <String fx:value="black" />
+               </styleClass>
+               <graphic>
+            <ImageView fx:id="j13" fitHeight="75.0" fitWidth="75.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@pawnB.png" />
+                     </image></ImageView>
+            </graphic>
+            </Label>
+            <Label fx:id="f2" alignment="CENTER" contentDisplay="GRAPHIC_ONLY" layoutX="235.0" layoutY="10.0" prefHeight="75.0" prefWidth="75.0" text="14" textAlignment="CENTER">
+               <effect>
+                  <DropShadow color="#6b5e5e" height="12.1" radius="4.75" spread="0.1" width="8.9" />
+               </effect>
+               <styleClass>
+                  <String fx:value="box" />
+                  <String fx:value="white" />
+               </styleClass>
+               <graphic>
+            <ImageView fx:id="j14" fitHeight="75.0" fitWidth="75.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@pawnB.png" />
+                     </image></ImageView>
+            </graphic>
+            </Label>
+            <Label fx:id="g2" alignment="CENTER" contentDisplay="GRAPHIC_ONLY" layoutX="235.0" layoutY="10.0" prefHeight="75.0" prefWidth="75.0" text="15" textAlignment="CENTER">
+               <effect>
+                  <DropShadow color="#6b5e5e" height="12.1" radius="4.75" spread="0.1" width="8.9" />
+               </effect>
+               <styleClass>
+                  <String fx:value="box" />
+                  <String fx:value="black" />
+               </styleClass>
+               <graphic>
+            <ImageView fx:id="j15" fitHeight="75.0" fitWidth="75.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@pawnB.png" />
+                     </image></ImageView>
+            </graphic>
+            </Label>
+            <Label fx:id="h2" alignment="CENTER" contentDisplay="GRAPHIC_ONLY" layoutX="85.0" layoutY="10.0" prefHeight="75.0" prefWidth="75.0" text="16" textAlignment="CENTER">
+               <effect>
+                  <DropShadow color="#6b5e5e" height="12.1" radius="4.75" spread="0.1" width="8.9" />
+               </effect>
+               <styleClass>
+                  <String fx:value="box" />
+                  <String fx:value="white" />
+               </styleClass>
+               <graphic>
+            <ImageView fx:id="j16" fitHeight="75.0" fitWidth="75.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@pawnB.png" />
+                     </image></ImageView>
+            </graphic>
+            </Label>
+         </children>
+      </HBox>
+      <HBox layoutX="5.0" layoutY="161.0" prefHeight="75.0" prefWidth="600.0">
+         <children>
+            <Label fx:id="a3" alignment="CENTER" contentDisplay="GRAPHIC_ONLY" prefHeight="75.0" prefWidth="75.0" text="17" textAlignment="CENTER">
+               <effect>
+                  <DropShadow color="#6b5e5e" height="12.1" radius="4.75" spread="0.1" width="8.9" />
+               </effect>
+               <styleClass>
+                  <String fx:value="box" />
+                  <String fx:value="white" />
+               </styleClass>
+               <graphic>
+            <ImageView fx:id="j17" fitHeight="75.0" fitWidth="75.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                   
+               </image>
+            </ImageView>
+            </graphic>
+            </Label>
+            <Label fx:id="b3" alignment="CENTER" contentDisplay="GRAPHIC_ONLY" layoutX="10.0" layoutY="10.0" prefHeight="75.0" prefWidth="75.0" text="18" textAlignment="CENTER">
+               <effect>
+                  <DropShadow color="#6b5e5e" height="12.1" radius="4.75" spread="0.1" width="8.9" />
+               </effect>
+               <styleClass>
+                  <String fx:value="box" />
+                  <String fx:value="black" />
+               </styleClass>
+               <graphic>
+            <ImageView fx:id="j18" fitHeight="75.0" fitWidth="75.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                   
+               </image>
+            </ImageView>
+            </graphic>
+            </Label>
+            <Label fx:id="c3" alignment="CENTER" contentDisplay="GRAPHIC_ONLY" layoutX="10.0" layoutY="10.0" prefHeight="75.0" prefWidth="75.0" text="19" textAlignment="CENTER">
+               <effect>
+                  <DropShadow color="#6b5e5e" height="12.1" radius="4.75" spread="0.1" width="8.9" />
+               </effect>
+               <styleClass>
+                  <String fx:value="box" />
+                  <String fx:value="white" />
+               </styleClass>
+               <graphic>
+            <ImageView fx:id="j19" fitHeight="75.0" fitWidth="75.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                   
+               </image>
+            </ImageView>
+            </graphic>
+            </Label>
+            <Label fx:id="d3" alignment="CENTER" contentDisplay="GRAPHIC_ONLY" layoutX="85.0" layoutY="10.0" prefHeight="75.0" prefWidth="75.0" text="20" textAlignment="CENTER">
+               <effect>
+                  <DropShadow color="#6b5e5e" height="12.1" radius="4.75" spread="0.1" width="8.9" />
+               </effect>
+               <styleClass>
+                  <String fx:value="box" />
+                  <String fx:value="black" />
+               </styleClass>
+               <graphic>
+            <ImageView fx:id="j20" fitHeight="75.0" fitWidth="75.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                   
+               </image>
+            </ImageView>
+            </graphic>
+            </Label>
+            <Label alignment="CENTER" contentDisplay="GRAPHIC_ONLY" layoutX="160.0" layoutY="10.0" prefHeight="75.0" prefWidth="75.0" text="21" textAlignment="CENTER">
+               <effect>
+                  <DropShadow color="#6b5e5e" height="12.1" radius="4.75" spread="0.1" width="8.9" />
+               </effect>
+               <styleClass>
+                  <String fx:value="box" />
+                  <String fx:value="white" />
+               </styleClass>
+               <graphic>
+            <ImageView fx:id="j21" fitHeight="75.0" fitWidth="75.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                   
+               </image>
+            </ImageView>
+            </graphic>
+            </Label>
+            <Label fx:id="f3" alignment="CENTER" contentDisplay="GRAPHIC_ONLY" layoutX="235.0" layoutY="10.0" prefHeight="75.0" prefWidth="75.0" text="22" textAlignment="CENTER">
+               <effect>
+                  <DropShadow color="#6b5e5e" height="12.1" radius="4.75" spread="0.1" width="8.9" />
+               </effect>
+               <styleClass>
+                  <String fx:value="box" />
+                  <String fx:value="black" />
+               </styleClass>
+               <graphic>
+            <ImageView fx:id="j22" fitHeight="75.0" fitWidth="75.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                   
+               </image>
+            </ImageView>
+            </graphic>
+            </Label>
+            <Label fx:id="g3" alignment="CENTER" contentDisplay="GRAPHIC_ONLY" layoutX="235.0" layoutY="10.0" prefHeight="75.0" prefWidth="75.0" text="23" textAlignment="CENTER">
+               <effect>
+                  <DropShadow color="#6b5e5e" height="12.1" radius="4.75" spread="0.1" width="8.9" />
+               </effect>
+               <styleClass>
+                  <String fx:value="box" />
+                  <String fx:value="white" />
+               </styleClass>
+               <graphic>
+            <ImageView fx:id="j23" fitHeight="75.0" fitWidth="75.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                   
+               </image>
+            </ImageView>
+            </graphic>
+            </Label>
+            <Label fx:id="h3" alignment="CENTER" contentDisplay="GRAPHIC_ONLY" layoutX="235.0" layoutY="10.0" prefHeight="75.0" prefWidth="75.0" text="24" textAlignment="CENTER">
+               <effect>
+                  <DropShadow color="#6b5e5e" height="12.1" radius="4.75" spread="0.1" width="8.9" />
+               </effect>
+               <styleClass>
+                  <String fx:value="box" />
+                  <String fx:value="black" />
+               </styleClass>
+               <graphic>
+            <ImageView fx:id="j24" fitHeight="75.0" fitWidth="75.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                   
+               </image>
+            </ImageView>
+            </graphic>
+            </Label>
+         </children>
+      </HBox>
+      <HBox layoutX="5.0" layoutY="240.0" prefHeight="75.0" prefWidth="600.0">
+         <children>
+            <Label fx:id="a4" alignment="CENTER" contentDisplay="GRAPHIC_ONLY" prefHeight="75.0" prefWidth="75.0" text="25" textAlignment="CENTER">
+               <effect>
+                  <DropShadow color="#6b5e5e" height="12.1" radius="4.75" spread="0.1" width="8.9" />
+               </effect>
+               <styleClass>
+                  <String fx:value="box" />
+                  <String fx:value="black" />
+               </styleClass>
+               <graphic>
+            <ImageView fx:id="j25" fitHeight="75.0" fitWidth="75.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                   
+               </image>
+            </ImageView>
+            </graphic>
+            </Label>
+            <Label fx:id="b4" alignment="CENTER" contentDisplay="GRAPHIC_ONLY" layoutX="10.0" layoutY="10.0" prefHeight="75.0" prefWidth="75.0" text="26" textAlignment="CENTER">
+               <effect>
+                  <DropShadow color="#6b5e5e" height="12.1" radius="4.75" spread="0.1" width="8.9" />
+               </effect>
+               <styleClass>
+                  <String fx:value="box" />
+                  <String fx:value="white" />
+               </styleClass>
+               <graphic>
+            <ImageView fx:id="j26" fitHeight="75.0" fitWidth="75.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                   
+               </image>
+            </ImageView>
+            </graphic>
+            </Label>
+            <Label fx:id="c4" alignment="CENTER" contentDisplay="GRAPHIC_ONLY" layoutX="10.0" layoutY="10.0" prefHeight="75.0" prefWidth="75.0" text="27" textAlignment="CENTER">
+               <effect>
+                  <DropShadow color="#6b5e5e" height="12.1" radius="4.75" spread="0.1" width="8.9" />
+               </effect>
+               <styleClass>
+                  <String fx:value="box" />
+                  <String fx:value="black" />
+               </styleClass>
+               <graphic>
+            <ImageView fx:id="j27" fitHeight="75.0" fitWidth="75.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                   
+               </image>
+            </ImageView>
+            </graphic>
+            </Label>
+            <Label fx:id="d4" alignment="CENTER" contentDisplay="GRAPHIC_ONLY" layoutX="160.0" layoutY="10.0" prefHeight="75.0" prefWidth="75.0" text="28" textAlignment="CENTER">
+               <effect>
+                  <DropShadow color="#6b5e5e" height="12.1" radius="4.75" spread="0.1" width="8.9" />
+               </effect>
+               <styleClass>
+                  <String fx:value="box" />
+                  <String fx:value="white" />
+               </styleClass>
+               <graphic>
+            <ImageView fx:id="j28" fitHeight="75.0" fitWidth="75.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                   
+               </image>
+            </ImageView>
+            </graphic>
+            </Label>
+            <Label alignment="CENTER" contentDisplay="GRAPHIC_ONLY" layoutX="235.0" layoutY="10.0" prefHeight="75.0" prefWidth="75.0" text="29" textAlignment="CENTER">
+               <effect>
+                  <DropShadow color="#6b5e5e" height="12.1" radius="4.75" spread="0.1" width="8.9" />
+               </effect>
+               <styleClass>
+                  <String fx:value="box" />
+                  <String fx:value="black" />
+               </styleClass>
+               <graphic>
+            <ImageView fx:id="j29" fitHeight="75.0" fitWidth="75.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                   
+               </image>
+            </ImageView>
+            </graphic>
+            </Label>
+            <Label fx:id="f4" alignment="CENTER" contentDisplay="GRAPHIC_ONLY" layoutX="235.0" layoutY="10.0" prefHeight="75.0" prefWidth="75.0" text="30" textAlignment="CENTER">
+               <effect>
+                  <DropShadow color="#6b5e5e" height="12.1" radius="4.75" spread="0.1" width="8.9" />
+               </effect>
+               <styleClass>
+                  <String fx:value="box" />
+                  <String fx:value="white" />
+               </styleClass>
+               <graphic>
+            <ImageView fx:id="j30" fitHeight="75.0" fitWidth="75.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                   
+               </image>
+            </ImageView>
+            </graphic>
+            </Label>
+            <Label fx:id="g4" alignment="CENTER" contentDisplay="GRAPHIC_ONLY" layoutX="235.0" layoutY="10.0" prefHeight="75.0" prefWidth="75.0" text="31" textAlignment="CENTER">
+               <effect>
+                  <DropShadow color="#6b5e5e" height="12.1" radius="4.75" spread="0.1" width="8.9" />
+               </effect>
+               <styleClass>
+                  <String fx:value="box" />
+                  <String fx:value="black" />
+               </styleClass>
+               <graphic>
+            <ImageView fx:id="j31" fitHeight="75.0" fitWidth="75.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                   
+               </image>
+            </ImageView>
+            </graphic>
+            </Label>
+            <Label fx:id="h4" alignment="CENTER" contentDisplay="GRAPHIC_ONLY" layoutX="85.0" layoutY="10.0" prefHeight="75.0" prefWidth="75.0" text="32" textAlignment="CENTER">
+               <effect>
+                  <DropShadow color="#6b5e5e" height="12.1" radius="4.75" spread="0.1" width="8.9" />
+               </effect>
+               <styleClass>
+                  <String fx:value="box" />
+                  <String fx:value="white" />
+               </styleClass>
+               <graphic>
+            <ImageView fx:id="j32" fitHeight="75.0" fitWidth="75.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                   
+               </image>
+            </ImageView>
+            </graphic>
+            </Label>
+         </children>
+      </HBox>
+      <HBox layoutX="5.0" layoutY="319.0" prefHeight="75.0" prefWidth="600.0">
+         <children>
+            <Label fx:id="a5" alignment="CENTER" contentDisplay="GRAPHIC_ONLY" prefHeight="75.0" prefWidth="75.0" text="33" textAlignment="CENTER">
+               <effect>
+                  <DropShadow color="#6b5e5e" height="12.1" radius="4.75" spread="0.1" width="8.9" />
+               </effect>
+               <styleClass>
+                  <String fx:value="box" />
+                  <String fx:value="white" />
+               </styleClass>
+               <graphic>
+            <ImageView fx:id="j33" fitHeight="75.0" fitWidth="75.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                   
+               </image>
+            </ImageView>
+            </graphic>
+            </Label>
+            <Label fx:id="b5" alignment="CENTER" contentDisplay="GRAPHIC_ONLY" layoutX="10.0" layoutY="10.0" prefHeight="75.0" prefWidth="75.0" text="34" textAlignment="CENTER">
+               <effect>
+                  <DropShadow color="#6b5e5e" height="12.1" radius="4.75" spread="0.1" width="8.9" />
+               </effect>
+               <styleClass>
+                  <String fx:value="box" />
+                  <String fx:value="black" />
+               </styleClass>
+               <graphic>
+            <ImageView fx:id="j34" fitHeight="75.0" fitWidth="75.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                   
+               </image>
+            </ImageView>
+            </graphic>
+            </Label>
+            <Label fx:id="c5" alignment="CENTER" contentDisplay="GRAPHIC_ONLY" layoutX="10.0" layoutY="10.0" prefHeight="75.0" prefWidth="75.0" text="35" textAlignment="CENTER">
+               <effect>
+                  <DropShadow color="#6b5e5e" height="12.1" radius="4.75" spread="0.1" width="8.9" />
+               </effect>
+               <styleClass>
+                  <String fx:value="box" />
+                  <String fx:value="white" />
+               </styleClass>
+               <graphic>
+            <ImageView fx:id="j35" fitHeight="75.0" fitWidth="75.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                   
+               </image>
+            </ImageView>
+            </graphic>
+            </Label>
+            <Label fx:id="d5" alignment="CENTER" contentDisplay="GRAPHIC_ONLY" layoutX="85.0" layoutY="10.0" prefHeight="75.0" prefWidth="75.0" text="36" textAlignment="CENTER">
+               <effect>
+                  <DropShadow color="#6b5e5e" height="12.1" radius="4.75" spread="0.1" width="8.9" />
+               </effect>
+               <styleClass>
+                  <String fx:value="box" />
+                  <String fx:value="black" />
+               </styleClass>
+               <graphic>
+            <ImageView fx:id="j36" fitHeight="75.0" fitWidth="75.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                   
+               </image>
+            </ImageView>
+            </graphic>
+            </Label>
+            <Label alignment="CENTER" contentDisplay="GRAPHIC_ONLY" layoutX="160.0" layoutY="10.0" prefHeight="75.0" prefWidth="75.0" text="37" textAlignment="CENTER">
+               <effect>
+                  <DropShadow color="#6b5e5e" height="12.1" radius="4.75" spread="0.1" width="8.9" />
+               </effect>
+               <styleClass>
+                  <String fx:value="box" />
+                  <String fx:value="white" />
+               </styleClass>
+               <graphic>
+            <ImageView fx:id="j37" fitHeight="75.0" fitWidth="75.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                   
+               </image>
+            </ImageView>
+            </graphic>
+            </Label>
+            <Label fx:id="f5" alignment="CENTER" contentDisplay="GRAPHIC_ONLY" layoutX="235.0" layoutY="10.0" prefHeight="75.0" prefWidth="75.0" text="38" textAlignment="CENTER">
+               <effect>
+                  <DropShadow color="#6b5e5e" height="12.1" radius="4.75" spread="0.1" width="8.9" />
+               </effect>
+               <styleClass>
+                  <String fx:value="box" />
+                  <String fx:value="black" />
+               </styleClass>
+               <graphic>
+            <ImageView fx:id="j38" fitHeight="75.0" fitWidth="75.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                   
+               </image>
+            </ImageView>
+            </graphic>
+            </Label>
+            <Label fx:id="g5" alignment="CENTER" contentDisplay="GRAPHIC_ONLY" layoutX="235.0" layoutY="10.0" prefHeight="75.0" prefWidth="75.0" text="39" textAlignment="CENTER">
+               <effect>
+                  <DropShadow color="#6b5e5e" height="12.1" radius="4.75" spread="0.1" width="8.9" />
+               </effect>
+               <styleClass>
+                  <String fx:value="box" />
+                  <String fx:value="white" />
+               </styleClass>
+               <graphic>
+            <ImageView fx:id="j39" fitHeight="75.0" fitWidth="75.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                   
+               </image>
+            </ImageView>
+            </graphic>
+            </Label>
+            <Label fx:id="h5" alignment="CENTER" contentDisplay="GRAPHIC_ONLY" layoutX="235.0" layoutY="10.0" prefHeight="75.0" prefWidth="75.0" text="40" textAlignment="CENTER">
+               <effect>
+                  <DropShadow color="#6b5e5e" height="12.1" radius="4.75" spread="0.1" width="8.9" />
+               </effect>
+               <styleClass>
+                  <String fx:value="box" />
+                  <String fx:value="black" />
+               </styleClass>
+               <graphic>
+            <ImageView fx:id="j40" fitHeight="75.0" fitWidth="75.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                   
+               </image>
+            </ImageView>
+            </graphic>
+            </Label>
+         </children>
+      </HBox>
+      <HBox layoutX="5.0" layoutY="398.0" prefHeight="75.0" prefWidth="600.0">
+         <children>
+            <Label fx:id="a6" alignment="CENTER" contentDisplay="GRAPHIC_ONLY" prefHeight="75.0" prefWidth="75.0" text="41" textAlignment="CENTER">
+               <effect>
+                  <DropShadow color="#6b5e5e" height="12.1" radius="4.75" spread="0.1" width="8.9" />
+               </effect>
+               <styleClass>
+                  <String fx:value="box" />
+                  <String fx:value="black" />
+               </styleClass>
+               <graphic>
+            <ImageView fx:id="j41" fitHeight="75.0" fitWidth="75.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                   
+               </image>
+            </ImageView>
+            </graphic>
+            </Label>
+            <Label fx:id="b6" alignment="CENTER" contentDisplay="GRAPHIC_ONLY" layoutX="10.0" layoutY="10.0" prefHeight="75.0" prefWidth="75.0" text="42" textAlignment="CENTER">
+               <effect>
+                  <DropShadow color="#6b5e5e" height="12.1" radius="4.75" spread="0.1" width="8.9" />
+               </effect>
+               <styleClass>
+                  <String fx:value="box" />
+                  <String fx:value="white" />
+               </styleClass>
+               <graphic>
+            <ImageView fx:id="j42" fitHeight="75.0" fitWidth="75.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                   
+               </image>
+            </ImageView>
+            </graphic>
+            </Label>
+            <Label fx:id="c6" alignment="CENTER" contentDisplay="GRAPHIC_ONLY" layoutX="10.0" layoutY="10.0" prefHeight="75.0" prefWidth="75.0" text="43" textAlignment="CENTER">
+               <effect>
+                  <DropShadow color="#6b5e5e" height="12.1" radius="4.75" spread="0.1" width="8.9" />
+               </effect>
+               <styleClass>
+                  <String fx:value="box" />
+                  <String fx:value="black" />
+               </styleClass>
+               <graphic>
+            <ImageView fx:id="j43" fitHeight="75.0" fitWidth="75.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                   
+               </image>
+            </ImageView>
+            </graphic>
+            </Label>
+            <Label fx:id="d6" alignment="CENTER" contentDisplay="GRAPHIC_ONLY" layoutX="160.0" layoutY="10.0" prefHeight="75.0" prefWidth="75.0" text="44" textAlignment="CENTER">
+               <effect>
+                  <DropShadow color="#6b5e5e" height="12.1" radius="4.75" spread="0.1" width="8.9" />
+               </effect>
+               <styleClass>
+                  <String fx:value="box" />
+                  <String fx:value="white" />
+               </styleClass>
+               <graphic>
+            <ImageView fx:id="j44" fitHeight="75.0" fitWidth="75.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                   
+               </image>
+            </ImageView>
+            </graphic>
+            </Label>
+            <Label alignment="CENTER" contentDisplay="GRAPHIC_ONLY" layoutX="235.0" layoutY="10.0" prefHeight="75.0" prefWidth="75.0" text="45" textAlignment="CENTER">
+               <effect>
+                  <DropShadow color="#6b5e5e" height="12.1" radius="4.75" spread="0.1" width="8.9" />
+               </effect>
+               <styleClass>
+                  <String fx:value="box" />
+                  <String fx:value="black" />
+               </styleClass>
+               <graphic>
+            <ImageView fx:id="j45" fitHeight="75.0" fitWidth="75.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                   
+               </image>
+            </ImageView>
+            </graphic>
+            </Label>
+            <Label fx:id="f6" alignment="CENTER" contentDisplay="GRAPHIC_ONLY" layoutX="235.0" layoutY="10.0" prefHeight="75.0" prefWidth="75.0" text="46" textAlignment="CENTER">
+               <effect>
+                  <DropShadow color="#6b5e5e" height="12.1" radius="4.75" spread="0.1" width="8.9" />
+               </effect>
+               <styleClass>
+                  <String fx:value="box" />
+                  <String fx:value="white" />
+               </styleClass>
+               <graphic>
+            <ImageView fx:id="j46" fitHeight="75.0" fitWidth="75.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                   
+               </image>
+            </ImageView>
+            </graphic>
+            </Label>
+            <Label fx:id="g6" alignment="CENTER" contentDisplay="GRAPHIC_ONLY" layoutX="235.0" layoutY="10.0" prefHeight="75.0" prefWidth="75.0" text="47" textAlignment="CENTER">
+               <effect>
+                  <DropShadow color="#6b5e5e" height="12.1" radius="4.75" spread="0.1" width="8.9" />
+               </effect>
+               <styleClass>
+                  <String fx:value="box" />
+                  <String fx:value="black" />
+               </styleClass>
+               <graphic>
+            <ImageView fx:id="j47" fitHeight="75.0" fitWidth="75.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                   
+               </image>
+            </ImageView>
+            </graphic>
+            </Label>
+            <Label fx:id="h6" alignment="CENTER" contentDisplay="GRAPHIC_ONLY" layoutX="85.0" layoutY="10.0" prefHeight="75.0" prefWidth="75.0" text="48" textAlignment="CENTER">
+               <effect>
+                  <DropShadow color="#6b5e5e" height="12.1" radius="4.75" spread="0.1" width="8.9" />
+               </effect>
+               <styleClass>
+                  <String fx:value="box" />
+                  <String fx:value="white" />
+               </styleClass>
+               <graphic>
+            <ImageView fx:id="j48" fitHeight="75.0" fitWidth="75.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                   
+               </image>
+            </ImageView>
+            </graphic>
+            </Label>
+         </children>
+      </HBox>
+      <HBox layoutX="5.0" layoutY="477.0" prefHeight="75.0" prefWidth="600.0">
+         <children>
+            <Label fx:id="a7" alignment="CENTER" contentDisplay="GRAPHIC_ONLY" prefHeight="75.0" prefWidth="75.0" text="49" textAlignment="CENTER">
+               <effect>
+                  <DropShadow color="#6b5e5e" height="12.1" radius="4.75" spread="0.1" width="8.9" />
+               </effect>
+               <styleClass>
+                  <String fx:value="box" />
+                  <String fx:value="white" />
+               </styleClass>
+               <graphic>
+            <ImageView fx:id="j49" fitHeight="75.0" fitWidth="75.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@pawnW.png" />
+                     </image></ImageView>
+            </graphic>
+            </Label>
+            <Label fx:id="b7" alignment="CENTER" contentDisplay="GRAPHIC_ONLY" layoutX="10.0" layoutY="10.0" prefHeight="75.0" prefWidth="75.0" text="50" textAlignment="CENTER">
+               <effect>
+                  <DropShadow color="#6b5e5e" height="12.1" radius="4.75" spread="0.1" width="8.9" />
+               </effect>
+               <styleClass>
+                  <String fx:value="box" />
+                  <String fx:value="black" />
+               </styleClass>
+               <graphic>
+            <ImageView fx:id="j50" fitHeight="75.0" fitWidth="75.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@pawnW.png" />
+                     </image></ImageView>
+            </graphic>
+            </Label>
+            <Label fx:id="c7" alignment="CENTER" contentDisplay="GRAPHIC_ONLY" layoutX="10.0" layoutY="10.0" prefHeight="75.0" prefWidth="75.0" text="51" textAlignment="CENTER">
+               <effect>
+                  <DropShadow color="#6b5e5e" height="12.1" radius="4.75" spread="0.1" width="8.9" />
+               </effect>
+               <styleClass>
+                  <String fx:value="box" />
+                  <String fx:value="white" />
+               </styleClass>
+               <graphic>
+            <ImageView fx:id="j51" fitHeight="75.0" fitWidth="75.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@pawnW.png" />
+                     </image></ImageView>
+            </graphic>
+            </Label>
+            <Label fx:id="d7" alignment="CENTER" contentDisplay="GRAPHIC_ONLY" layoutX="85.0" layoutY="10.0" prefHeight="75.0" prefWidth="75.0" text="52" textAlignment="CENTER">
+               <effect>
+                  <DropShadow color="#6b5e5e" height="12.1" radius="4.75" spread="0.1" width="8.9" />
+               </effect>
+               <styleClass>
+                  <String fx:value="box" />
+                  <String fx:value="black" />
+               </styleClass>
+               <graphic>
+            <ImageView fx:id="j52" fitHeight="75.0" fitWidth="75.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@pawnW.png" />
+                     </image></ImageView>
+            </graphic>
+            </Label>
+            <Label alignment="CENTER" contentDisplay="GRAPHIC_ONLY" layoutX="160.0" layoutY="10.0" prefHeight="75.0" prefWidth="75.0" text="53" textAlignment="CENTER">
+               <effect>
+                  <DropShadow color="#6b5e5e" height="12.1" radius="4.75" spread="0.1" width="8.9" />
+               </effect>
+               <styleClass>
+                  <String fx:value="box" />
+                  <String fx:value="white" />
+               </styleClass>
+               <graphic>
+            <ImageView fx:id="j53" fitHeight="75.0" fitWidth="75.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@pawnW.png" />
+                     </image></ImageView>
+            </graphic>
+            </Label>
+            <Label fx:id="f7" alignment="CENTER" contentDisplay="GRAPHIC_ONLY" layoutX="235.0" layoutY="10.0" prefHeight="75.0" prefWidth="75.0" text="54" textAlignment="CENTER">
+               <effect>
+                  <DropShadow color="#6b5e5e" height="12.1" radius="4.75" spread="0.1" width="8.9" />
+               </effect>
+               <styleClass>
+                  <String fx:value="box" />
+                  <String fx:value="black" />
+               </styleClass>
+               <graphic>
+            <ImageView fx:id="j54" fitHeight="75.0" fitWidth="75.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@pawnW.png" />
+                     </image></ImageView>
+            </graphic>
+            </Label>
+            <Label fx:id="g7" alignment="CENTER" contentDisplay="GRAPHIC_ONLY" layoutX="235.0" layoutY="10.0" prefHeight="75.0" prefWidth="75.0" text="55" textAlignment="CENTER">
+               <effect>
+                  <DropShadow color="#6b5e5e" height="12.1" radius="4.75" spread="0.1" width="8.9" />
+               </effect>
+               <styleClass>
+                  <String fx:value="box" />
+                  <String fx:value="white" />
+               </styleClass>
+               <graphic>
+            <ImageView fx:id="j55" fitHeight="75.0" fitWidth="75.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@pawnW.png" />
+                     </image></ImageView>
+            </graphic>
+            </Label>
+            <Label fx:id="h7" alignment="CENTER" contentDisplay="GRAPHIC_ONLY" layoutX="235.0" layoutY="10.0" prefHeight="75.0" prefWidth="75.0" text="56" textAlignment="CENTER">
+               <effect>
+                  <DropShadow color="#6b5e5e" height="12.1" radius="4.75" spread="0.1" width="8.9" />
+               </effect>
+               <styleClass>
+                  <String fx:value="box" />
+                  <String fx:value="black" />
+               </styleClass>
+               <graphic>
+            <ImageView fx:id="j56" fitHeight="75.0" fitWidth="75.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@pawnW.png" />
+                     </image></ImageView>
+            </graphic>
+            </Label>
+         </children>
+      </HBox>
+      <HBox layoutX="5.0" layoutY="556.0" prefHeight="75.0" prefWidth="600.0">
+         <children>
+            <Label fx:id="a8" alignment="CENTER" contentDisplay="GRAPHIC_ONLY" prefHeight="75.0" prefWidth="75.0" text="57" textAlignment="CENTER">
+               <effect>
+                  <DropShadow color="#6b5e5e" height="12.1" radius="4.75" spread="0.1" width="8.9" />
+               </effect>
+               <styleClass>
+                  <String fx:value="box" />
+                  <String fx:value="black" />
+               </styleClass>
+               <graphic>
+            <ImageView fx:id="j57" fitHeight="75.0" fitWidth="75.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@hookW.png" />
+                     </image></ImageView>
+            </graphic>
+            </Label>
+            <Label fx:id="b8" alignment="CENTER" contentDisplay="GRAPHIC_ONLY" layoutX="10.0" layoutY="10.0" prefHeight="75.0" prefWidth="75.0" text="58" textAlignment="CENTER">
+               <effect>
+                  <DropShadow color="#6b5e5e" height="12.1" radius="4.75" spread="0.1" width="8.9" />
+               </effect>
+               <styleClass>
+                  <String fx:value="box" />
+                  <String fx:value="white" />
+               </styleClass>
+               <graphic>
+            <ImageView fx:id="j58" fitHeight="75.0" fitWidth="75.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@knightW.png" />
+                     </image></ImageView>
+            </graphic>
+            </Label>
+            <Label fx:id="c8" alignment="CENTER" contentDisplay="GRAPHIC_ONLY" layoutX="10.0" layoutY="10.0" prefHeight="75.0" prefWidth="75.0" text="59" textAlignment="CENTER">
+               <effect>
+                  <DropShadow color="#6b5e5e" height="12.1" radius="4.75" spread="0.1" width="8.9" />
+               </effect>
+               <styleClass>
+                  <String fx:value="box" />
+                  <String fx:value="black" />
+               </styleClass>
+               <graphic>
+            <ImageView fx:id="j59" fitHeight="75.0" fitWidth="75.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@bishopW.png" />
+                     </image></ImageView>
+            </graphic>
+            </Label>
+            <Label fx:id="d8" alignment="CENTER" contentDisplay="GRAPHIC_ONLY" layoutX="160.0" layoutY="10.0" prefHeight="75.0" prefWidth="75.0" text="60" textAlignment="CENTER">
+               <effect>
+                  <DropShadow color="#6b5e5e" height="12.1" radius="4.75" spread="0.1" width="8.9" />
+               </effect>
+               <styleClass>
+                  <String fx:value="box" />
+                  <String fx:value="white" />
+               </styleClass>
+               <graphic>
+            <ImageView fx:id="j60" fitHeight="75.0" fitWidth="75.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@kingW.png" />
+                     </image></ImageView>
+            </graphic>
+            </Label>
+            <Label alignment="CENTER" contentDisplay="GRAPHIC_ONLY" layoutX="235.0" layoutY="10.0" prefHeight="75.0" prefWidth="75.0" text="61" textAlignment="CENTER">
+               <effect>
+                  <DropShadow color="#6b5e5e" height="12.1" radius="4.75" spread="0.1" width="8.9" />
+               </effect>
+               <styleClass>
+                  <String fx:value="box" />
+                  <String fx:value="black" />
+               </styleClass>
+               <graphic>
+            <ImageView fx:id="j61" fitHeight="75.0" fitWidth="75.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@queenW.png" />
+                     </image></ImageView>
+            </graphic>
+            </Label>
+            <Label fx:id="f8" alignment="CENTER" contentDisplay="GRAPHIC_ONLY" layoutX="235.0" layoutY="10.0" prefHeight="75.0" prefWidth="75.0" text="62" textAlignment="CENTER">
+               <effect>
+                  <DropShadow color="#6b5e5e" height="12.1" radius="4.75" spread="0.1" width="8.9" />
+               </effect>
+               <styleClass>
+                  <String fx:value="box" />
+                  <String fx:value="white" />
+               </styleClass>
+               <graphic>
+            <ImageView fx:id="j62" fitHeight="75.0" fitWidth="75.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@bishopW.png" />
+                     </image></ImageView>
+            </graphic>
+            </Label>
+            <Label fx:id="g8" alignment="CENTER" contentDisplay="GRAPHIC_ONLY" layoutX="235.0" layoutY="10.0" prefHeight="75.0" prefWidth="75.0" text="63" textAlignment="CENTER">
+               <effect>
+                  <DropShadow color="#6b5e5e" height="12.1" radius="4.75" spread="0.1" width="8.9" />
+               </effect>
+               <styleClass>
+                  <String fx:value="box" />
+                  <String fx:value="black" />
+               </styleClass>
+               <graphic>
+            <ImageView fx:id="j63" fitHeight="75.0" fitWidth="75.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@knightW.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Label>
+            <Label fx:id="h8" alignment="CENTER" contentDisplay="GRAPHIC_ONLY" layoutX="85.0" layoutY="10.0" prefHeight="75.0" prefWidth="75.0" text="64" textAlignment="CENTER">
+               <effect>
+                  <DropShadow color="#6b5e5e" height="12.1" radius="4.75" spread="0.1" width="8.9" />
+               </effect>
+               <styleClass>
+                  <String fx:value="box" />
+                  <String fx:value="white" />
+               </styleClass>
+               <graphic>
+            <ImageView fx:id="j64" fitHeight="75.0" fitWidth="75.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@hookW.png" />
+                     </image></ImageView>
+            </graphic>
+            </Label>
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>

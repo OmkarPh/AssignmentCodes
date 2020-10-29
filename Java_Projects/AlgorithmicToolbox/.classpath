@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="week1_programming_challenges/1_sum_of_two_digits"/>
+	<classpathentry kind="src" path="week1_programming_challenges/2_maximum_pairwise_product"/>
+	<classpathentry kind="src" path="week2_algorithmic_warmup/1_fibonacci_number"/>
+	<classpathentry kind="src" path="week2_algorithmic_warmup/2_last_digit_of_fibonacci_number"/>
+	<classpathentry kind="src" path="week2_algorithmic_warmup/3_greatest_common_divisor"/>
+	<classpathentry kind="src" path="week2_algorithmic_warmup/4_least_common_multiple"/>
+	<classpathentry kind="src" path="week2_algorithmic_warmup/5_fibonacci_number_again"/>
+	<classpathentry kind="src" path="week2_algorithmic_warmup/6_last_digit_of_the_sum_of_fibonacci_numbers"/>
+	<classpathentry kind="src" path="week2_algorithmic_warmup/7_last_digit_of_the_sum_of_fibonacci_numbers_again"/>
+	<classpathentry kind="src" path="week2_algorithmic_warmup/8_last_digit_of_the_sum_of_squares_of_fibonacci_numbers"/>
+	<classpathentry kind="src" path="week3_greedy_algorithms/1_money_change"/>
+	<classpathentry kind="src" path="week3_greedy_algorithms/2_maximum_value_of_the_loot"/>
+	<classpathentry kind="src" path="week3_greedy_algorithms/3_car_fueling"/>
+	<classpathentry kind="src" path="week3_greedy_algorithms/4_maximum_advertisement_revenue"/>
+	<classpathentry kind="src" path="week3_greedy_algorithms/5_collecting_signatures"/>
+	<classpathentry kind="src" path="week3_greedy_algorithms/6_maximum_number_of_prizes"/>
+	<classpathentry kind="src" path="week3_greedy_algorithms/7_maximum_salary"/>
+	<classpathentry kind="src" path="week4_divide_and_conquer/1_binary_search"/>
+	<classpathentry kind="src" path="week4_divide_and_conquer/2_majority_element"/>
+	<classpathentry kind="src" path="week4_divide_and_conquer/3_improving_quicksort"/>
+	<classpathentry kind="src" path="week4_divide_and_conquer/4_number_of_inversions"/>
+	<classpathentry kind="src" path="week4_divide_and_conquer/5_organizing_a_lottery"/>
+	<classpathentry kind="src" path="week4_divide_and_conquer/6_closest_points"/>
+	<classpathentry kind="src" path="week5_dynamic_programming1/1_money_change_again"/>
+	<classpathentry kind="src" path="week5_dynamic_programming1/2_primitive_calculator"/>
+	<classpathentry kind="src" path="week5_dynamic_programming1/3_edit_distance"/>
+	<classpathentry kind="src" path="week5_dynamic_programming1/4_longest_common_subsequence_of_two_sequences"/>
+	<classpathentry kind="src" path="week5_dynamic_programming1/5_longest_common_subsequence_of_three_sequences"/>
+	<classpathentry kind="src" path="week6_dynamic_programming2/1_maximum_amount_of_gold"/>
+	<classpathentry kind="src" path="week6_dynamic_programming2/2_partitioning_souvenirs"/>
+	<classpathentry kind="src" path="week6_dynamic_programming2/3_maximum_value_of_an_arithmetic_expression"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
