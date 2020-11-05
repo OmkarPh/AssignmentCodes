@@ -1,0 +1,74 @@
+// Unsigned multiplication
+data segment
+    a dw 2342h
+    b dw 3312h
+    c dw ?
+    d dw ?
+    
+    data ends
+
+code segment
+    assume cs: code, ds:data
+    start:
+    mov ax, data
+    mov ds, ax
+    mov ax, a
+    mov bx, b
+    mul bx
+    mov c, dx
+    mov d, ax 
+    int 3
+    code ends
+end start
+
+
+
+
+// Signed multiplication
+data segment
+    a dw 2342h
+    b dw 00d2h
+    c dw ?
+    d dw ?
+    
+    data ends
+
+code segment
+    assume cs: code, ds:data
+    start:
+    mov ax, data
+    mov ds, ax
+    mov ax, a
+    mov bx, b
+    imul bx
+    mov c, dx
+    mov d, ax 
+    int 3
+    code ends
+end start
+
+
+
+
+// Signed division
+data segment
+    a dw 2355h
+    b dw 00d4h
+    c dw ?
+    d dw ?
+    
+    data ends
+
+code segment
+    assume cs: code, ds:data
+    start:
+    mov ax, data
+    mov ds, ax
+    mov ax, a
+    mov bx, b
+    idiv bx
+    mov c, dx
+    mov d, ax 
+    int 3
+    code ends
+end start
