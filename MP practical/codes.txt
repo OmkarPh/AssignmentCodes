@@ -72,3 +72,51 @@ code segment
     int 3
     code ends
 end start
+
+
+// Block transfer of 16bit data
+data segment
+    str1 dw 1384h, 3432h, 2366h, 8843h
+    str2 dw 4DUP<0>
+    data ends
+
+code segment
+    assume cs: code, ds:data
+    start:
+    mov ax,data
+    mov ds,ax
+    mov es,ax
+    mov cl,4
+    lea si, str1
+    lea di, str2
+    
+    copier: movsw
+            loop copier
+    
+    int 3
+    code ends
+end start
+
+
+// Block transfer of 8 bit data
+data segment
+    str1 db 14h, 36h, 26h, 31h
+    str2 db 4DUP<0>
+    data ends
+
+code segment
+    assume cs: code, ds:data
+    start:
+    mov ax,data
+    mov ds,ax
+    mov es,ax
+    mov cl,4
+    lea si, str1
+    lea di, str2
+    
+    copier: movsb
+            loop copier
+    
+    int 3
+    code ends
+end start
