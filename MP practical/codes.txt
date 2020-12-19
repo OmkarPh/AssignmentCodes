@@ -1,36 +1,3 @@
-Skip to content
-Search or jump to…
-
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@OmkarPh 
-OmkarPh
-/
-AssignmentCodes
-1
-0
-0
-Code
-Issues
-Pull requests
-Actions
-Projects
-Wiki
-Security
-Insights
-Settings
-AssignmentCodes/MP practical/MP All codes.txt
-@Aniruddha-Shriwant
-Aniruddha-Shriwant Updated extension for mp code file
-…
-Latest commit 9d10ce3 7 days ago
- History
- 1 contributor
-374 lines (320 sloc)  5.2 KB
-  
 Addition : 
 
 16bit
@@ -401,19 +368,3 @@ code segment
     int 3
     code ends
 end start
-
-
-
-
-© 2020 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Help
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
