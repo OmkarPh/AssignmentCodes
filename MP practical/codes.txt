@@ -1,122 +1,419 @@
-// Unsigned multiplication
+Skip to content
+Search or jump to…
+
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@OmkarPh 
+OmkarPh
+/
+AssignmentCodes
+1
+0
+0
+Code
+Issues
+Pull requests
+Actions
+Projects
+Wiki
+Security
+Insights
+Settings
+AssignmentCodes/MP practical/MP All codes.txt
+@Aniruddha-Shriwant
+Aniruddha-Shriwant Updated extension for mp code file
+…
+Latest commit 9d10ce3 7 days ago
+ History
+ 1 contributor
+374 lines (320 sloc)  5.2 KB
+  
+Addition : 
+
+16bit
 data segment
-    a dw 2342h
-    b dw 3312h
+    a dw 1312h
+    b dw 2212h
+    c dw ?
+    data ends
+    code segment
+        assume cs:code,ds:data
+        start:
+        mov ax,data
+        mov ds,ax
+        mov ax,a
+        mov bx,b   
+        add ax,bx
+        mov cx,ax
+        mov c,cx
+        int 3
+        code ends
+    end start          
+
+
+8bit: 
+
+data segment
+    a db 13h
+    b db 22h
+    c db ?
+    data ends
+    code segment
+        assume cs:code,ds:data
+        start:
+        mov ax,data
+        mov ds,ax
+        mov al,a
+        mov bl,b   
+        add al,bl
+        mov cl,al
+        mov c,cl
+        int 3
+        code ends
+    end start
+
+/////////////////////////////////////////////////////////
+
+Sub:
+
+8bit: 
+
+data segment
+    a db 21h
+    b db 10h
+    c db ?
+    data ends
+    code segment
+        assume cs:code,ds:data
+        start:
+        mov ax,data
+        mov ds,ax
+        mov al,a
+        mov bl,b   
+        sub al,bl
+        mov cl,al
+        mov c,cl
+        int 3
+        code ends
+    end start
+
+16 bit: 
+
+data segment
+    a dw 21A6h
+    b dw 1022h
+    c dw ?
+    data ends
+    code segment
+        assume cs:code,ds:data
+        start:
+        mov ax,data
+        mov ds,ax
+        mov ax,a
+        mov bx,b   
+        sub ax,bx
+        mov cx,ax
+        mov c,cx
+        int 3
+        code ends
+    end start
+
+//////////////////////////////////////////////////////
+
+Addition of 8-bit array
+
+data segment
+    s dw 01h,02h,02h,04h,05h
+    t dw ?
+    data ends
+code segment
+    assume cs:code,ds:data
+    start:
+    mov ax,data
+    mov ds,ax
+    mov cl,5
+    lea bx,s
+    mov ax,00
+    a1: add ax,word ptr[bx]
+    add bx,02
+    dec cl
+    cmp cl,00
+    jnz a1
+    mov t,ax
+    int 3
+    code ends
+end start
+
+16-bit : 
+
+data segment
+    s dw 2010h,0311h,002Ah,001Bh,014Dh
+    t dw ?
+    data ends
+code segment
+    assume cs:code,ds:data
+    start:
+    mov ax,data
+    mov ds,ax
+    mov cl,5
+    lea bx,s
+    mov ax,00
+    a1: add ax,word ptr[bx]
+    add bx,02
+    dec cl
+    cmp cl,00
+    jnz a1
+    mov t,ax
+    int 3
+    code ends
+end start
+
+/////////////////////////////////////////////////////////
+
+multibite :
+
+data segment
+    a dw 2010h   
+    b dw 0311h
+    c dw 002Ah
+    d dw 001Bh
+    e dw 014Dh 
+    t dw ?
+    data ends
+code segment
+    assume cs:code,ds:data
+    start:
+    mov ax,data
+    mov ds,ax  
+    mov ax,a
+    mov bx,b
+    mov cx,c
+    mov dx,d
+    mov cl,5
+    add ax,bx
+    adc ax,cx
+    adc ax,dx
+    mov dx,e
+    adc ax,dx    
+    mov t,ax
+    int 3
+    code ends
+end start
+
+
+/////////////////////////////////////////////////////////
+
+16 - bit MUL Unsigned
+
+data segment
+    a dw 1000h
+    b dw 2000h
     c dw ?
     d dw ?
-    
     data ends
-
 code segment
-    assume cs: code, ds:data
+    assume cs:code ds:data
     start:
-    mov ax, data
-    mov ds, ax
-    mov ax, a
-    mov bx, b
+    mov ax,data
+    mov ds,ax
+    mov ax,a
+    mov bx,b
     mul bx
-    mov c, dx
-    mov d, ax 
-    int 3
+    mov cx,ax
+    mov c,dx
+    mov d,cx
     code ends
 end start
 
 
+16 - bit MUL Signed
 
-
-// Signed multiplication
 data segment
-    a dw 2342h
-    b dw 00d2h
+    a dw 00FCh
+    b dw 0002h
     c dw ?
-    d dw ?
-    
     data ends
-
 code segment
-    assume cs: code, ds:data
+    assume cs:code ds:data
     start:
-    mov ax, data
-    mov ds, ax
-    mov ax, a
-    mov bx, b
+    mov ax,data
+    mov ds,ax
+    mov ax,a
+    mov bx,b
     imul bx
-    mov c, dx
-    mov d, ax 
-    int 3
+    mov cx,ax
+    mov c,cx
     code ends
 end start
 
 
+16 - bit Div Unsigned
 
-
-// Signed division
 data segment
-    a dw 2355h
-    b dw 00d4h
-    c dw ?
+    a dw 000Ah
+    b dw 0003h
+    c dw ? 
     d dw ?
-    
     data ends
-
 code segment
-    assume cs: code, ds:data
+    assume cs:code ds:data
     start:
+    mov ax,data
+    mov ds,ax
+    mov ax,a
+    mov bx,b
+    div bx
+    mov cx,ax
+    mov c,cx  
+    mov d,dx
+    code ends
+end start
+
+16 - bit Div Signed
+
+data segment
+    a dw 00F6h
+    b dw 0003h
+    c dw ? 
+    d dw ?
+    data ends
+code segment
+    assume cs:code ds:data
+    start:
+    mov ax,data
+    mov ds,ax
+    mov ax,a
+    mov bx,b
+    idiv bx
+    mov cx,ax
+    mov c,cx  
+    mov d,dx
+    code ends
+end start
+
+
+Block tranfer :
+
+data segment
+    string1 db 01h,03h,05h,07h,09h
+    string2 db 5DUP<0>
+    data ends
+code segment
+    assume cs:code ds:data
+    start:
+    mov ax,data
+    mov ds,ax
+    mov es,ax
+    mov cl,5
+    lea si,string1
+    lea di,string2
+    
+    up: movsb
+    loop up
+    int 3
+    code ends
+end start
+
+/////////////////////////////////////////////////////////
+
+Ascending order:
+
+data segment
+    string1 dw 14h,10h,5h,15h,21h
+    data ends
+    code segment
+        assume cs:code,ds:data
+        start:
+        mov ax,data
+        mov ds,ax
+       mov bx,5
+       up1: lea si,string1
+       mov cx,4
+       up: mov ax,[si]
+       cmp ax,[si+2]
+       jc down
+       
+     xchg ax,[si+2]
+     xchg ax,[si]
+     down: add si,2
+     loop up
+     dec bx
+     jnz up1
+     int 3
+      code ends
+end start  
+
+Descending order:
+
+data segment
+    string1 dw 14h,10h,5h,15h,21h
+    data ends
+    code segment
+        assume cs:code,ds:data
+        start:
+        mov ax,data
+        mov ds,ax
+       mov bx,5
+       up1: lea si,string1
+       mov cx,4
+       up: mov ax,[si]
+       cmp ax,[si+2]
+       jnc down
+       
+     xchg ax,[si+2]
+     xchg ax,[si]
+     down: add si,2
+     loop up
+     dec bx
+     jnz up1
+     int 3
+      code ends
+end start  
+
+
+///////////////////////////////////////////
+
+Cube of 16-bit
+
+data segment 
+    a dw 2h
+    result dw ?
+    data ends
+code segment 
+    assume ds: data, cs: code
+    start:   
     mov ax, data
     mov ds, ax
+    
     mov ax, a
-    mov bx, b
-    idiv bx
-    mov c, dx
-    mov d, ax 
-    int 3
-    code ends
-end start
-
-
-// Block transfer of 16bit data
-data segment
-    str1 dw 1384h, 3432h, 2366h, 8843h
-    str2 dw 4DUP<0>
-    data ends
-
-code segment
-    assume cs: code, ds:data
-    start:
-    mov ax,data
-    mov ds,ax
-    mov es,ax
-    mov cl,4
-    lea si, str1
-    lea di, str2
+    mov bx, a
     
-    copier: movsw
-            loop copier
+    mul bx
+    mul bx
+    
+    mov dx, ax
+    
+    mov result, ax
     
     int 3
     code ends
 end start
 
 
-// Block transfer of 8 bit data
-data segment
-    str1 db 14h, 36h, 26h, 31h
-    str2 db 4DUP<0>
-    data ends
 
-code segment
-    assume cs: code, ds:data
-    start:
-    mov ax,data
-    mov ds,ax
-    mov es,ax
-    mov cl,4
-    lea si, str1
-    lea di, str2
-    
-    copier: movsb
-            loop copier
-    
-    int 3
-    code ends
-end start
+
+© 2020 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
