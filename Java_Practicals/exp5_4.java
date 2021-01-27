@@ -1,7 +1,7 @@
 import java.util.*;
 import java.util.stream.*;
 
-public class Stream5_4{
+public class exp5_4{
     
     static class Track{
         public final String name;
