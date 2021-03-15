@@ -1,5 +1,7 @@
+from math import pi
+
 def areaOfCircle(radius):
-    return radius*radius
+    return pi*radius*radius
 
 def areaOfSquare(side):
     return side*side
