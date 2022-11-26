@@ -1,0 +1,6 @@
+mount c ~/dosbox
+c:
+
+masm file.asm;
+link file.obj;
+file.exe

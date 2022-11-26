@@ -1,0 +1,11 @@
+array
+single
+doubly
+stack
+infix to postfix **
+simple queue
+circular queue
+priority queue
+construct tree (TRAVERSAL METHODS DFS BFS                    )
+Linear and binary search
+sorting methods
