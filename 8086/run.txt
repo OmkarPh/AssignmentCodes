@@ -1,6 +1,7 @@
-mount c ~/dosbox
+mount c ~/projects/assignments/8086
 c:
+
 
 masm file.asm;
 link file.obj;
-file.exe
+debug file.exe

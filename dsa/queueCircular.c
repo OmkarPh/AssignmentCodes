@@ -1,59 +1,63 @@
 #include <stdio.h>
+#include <stdbool.h>
 #include <stdlib.h>
 
-#define initiaSize 10
-int *queueArray, currCapacity = 0;
-int rear = -1;
+#define queueCapacity 5
+int queueArray[queueCapacity];
+int fp = -1, rp = -1;
 
 int front(){
-  return rear > -1 ? queueArray[0] : -1;
+  return fp > -1 ? queueArray[fp] : -1;
 }
 int back(){
-  return rear > -1 ? queueArray[rear] : -1;
+  return rp > -1 ? queueArray[rp] : -1;
 }
-int queueSize(){
-  return rear+1;
+int size(){
+  if(fp == -1 || rp == -1)
+    return 0;
+  return rp < fp ? rp + queueCapacity-fp + 1 : rp - fp + 1;
+}
+bool isFull(){
+  return (rp+1)%queueCapacity == fp;
+}
+bool isEmpty(){
+  return fp == -1 && rp == -1;
 }
 int queue(int value){
-  if(rear+1 > currCapacity-1){
-    if(currCapacity == 0){
-      printf("Initialize queue array \n");
-      currCapacity = initiaSize;
-      queueArray = (int *)malloc(sizeof(int) * currCapacity);
-    } else {
-      printf("Capacity reached, doubling array now \n");
-      int *newQueueArray = (int *)malloc(sizeof(int) * currCapacity * 2);
-      for(int i=0; i<currCapacity; i++)
-        newQueueArray[i] = queueArray[i];
-      free(queueArray);
-      queueArray = newQueueArray;
-      currCapacity *= 2;
-    }
+  if(isFull()){
+    printf("Queue is full !! \n");
+    return -1;
   }
-  queueArray[++rear] = value;
-  return rear+1;
+  rp = (rp+1) % queueCapacity;
+  queueArray[rp] = value;
+  if(fp == -1)
+    fp = 0;
+  return size();
 }
 int dequeue(){
-  if(rear < 0)
-    return -1;
-  int removed = queueArray[0];
-  for(int i=0; i<rear; i++)
-    queueArray[i] = queueArray[i+1];
-  rear--;
-  return removed;
+  if(fp == rp){
+    int removed = queueArray[fp];
+    fp = rp = -1;
+    return removed;
+  }
+  fp = (fp+1)%queueCapacity;
+  return queueArray[fp];
 }
 void clearQueue(){
-  rear = -1;
+  fp = rp = -1;
 }
 void printQueue(){
-  if(rear < 0){
+  if(isEmpty()){
     printf("No elements in queue to print :(\n");
     return;
   }
-  printf("Queue [Size: %d] (front to back) i.e. 0 - %d:\t", queueSize(), rear);
-  for(int i=0; i<=rear; i++){
+
+  printf("Queue [Size: %d] (front to back) i.e. %d - %d:\t", size(), fp, rp);
+  int i;
+  for(i=fp; i != rp; i = (i+1)%queueCapacity){
     printf("%d ", queueArray[i]);
   }
+  printf("%d ", queueArray[i]);
   printf("\n");
 }
 
@@ -81,7 +85,8 @@ int main(){
         printf("Enter the number to queue: ");
         scanf("%d",&el);
         int len = queue(el);
-        printf("Number added to queue, updated size of queue: %d\n", len);
+        if(len != -1)
+          printf("Number added to queue, updated size of queue: %d\n", len);
         printQueue();
         break;
       case 2:
@@ -89,7 +94,7 @@ int main(){
         printQueue();
         break;
       case 3:
-        printf("Front: %d, back: %d, size: %d, max capacity: %d\n", front(), back(), queueSize(), currCapacity);
+        printf("Front: %d, back: %d, size: %d, max capacity: %d\n", front(), back(), size(), queueCapacity);
         printQueue();
         break;
       case 4:
