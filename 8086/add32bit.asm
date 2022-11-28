@@ -4,13 +4,9 @@ data segment
   ;        9A23 FC23
   ;        F132 C28F
   ;  1C 8B56 BEB2
-  num1 dd 09A23FC23h;
-  num2 dd 0F132C28Fh;
   result dd ?
   carry db 00h
   auxcarry db 00h
-  
-  identifier db 0CCh
 data ends
 stack segment stack
 stack ends
@@ -18,11 +14,14 @@ code segment
 start:
   mov ax, data
   mov ds, ax
-
-  mov ax, word ptr num1
-  mov bx, word ptr num2
-  mov cx, word ptr num1+2
-  mov dx, word ptr num2+2
+  
+  mov si, 0010h
+  mov [si+8], 1111h
+  mov [si+10], 1111h
+  mov ax, [si]
+  mov bx, [si+4]
+  mov cx, [si+2]
+  mov dx, [si+6]
   
   add bx, ax
   jc set_aux_carry
@@ -38,7 +37,10 @@ start:
 
   mov word ptr result, ax
   mov word ptr result+2, bx
+  mov [si+8], ax
+  mov [si+10], bx
 
   int 3
 code ends
 end start
+
