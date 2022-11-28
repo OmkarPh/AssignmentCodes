@@ -1,0 +1,7 @@
+e 076a:0010
+
+before
+23 FC 23 9A 8F C2 32 F1
+
+expected after add
+23 fc 23 9a 8f c2 32 f1 - 56 8b b2 be
