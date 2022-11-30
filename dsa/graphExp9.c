@@ -9,7 +9,7 @@
 0 1 0 1 1
 1 1 1 0 0
 0 0 1 0 1
-0
+2
 0
 
 */
@@ -25,12 +25,12 @@ a b c d e f g h
 0 1 0 1 0 0 0 0
 0 0 0 0 1 0 0 0
 1 0 0 0 1 0 0 0
-0
+1
 0
 
 */
 
-/* Test case 3
+/* Test case 3 - Class prob
 y -- z -- s     t
 |       |   /  |    / |
 x -- w - v -- u
@@ -45,7 +45,7 @@ s t u v w x y z
 0 0 0 0 1 0 1 0
 0 0 0 0 0 1 0 1
 1 0 0 0 1 0 1 0
-0
+1
 0
 
 */
@@ -186,7 +186,7 @@ int main() {
   scanf("%d", &vertices);
 
   char *verticesMapping = (char*)malloc(sizeof(char) * vertices);
-  printf("Enter values for graph: \n");
+  printf("Enter values for graph: ");
   scanf("\n");
   for(int i=0; i<vertices; i++)
     scanf(" %c", &verticesMapping[i]);
@@ -211,27 +211,38 @@ int main() {
   printf("Graph: ");
   printGraphMatrix(graphMatrix, vertices);
 
-  int source;     
-  printf("Enter source node idx for DFS: ");
-  scanf("%d", &source);
-  
-  printf("\n");
-  printf("Starting DFS from node - %d\nDFS: ", source);
-  DFS(source, verticesMapping, graphMatrix, vertices, visited);
-  printf("\nDFS done !!\n");
-  resetVisited(visited);
-  clearQueue();
+  int choice, source;
+
+  printf("Choosse graph traversal technique: \n1. DFS\t 2. BFS\n");
+  printf("Your choice: ");
+  scanf("%d", &choice);
+  switch(choice){
+    case 1:
+      printf("Enter source node idx for DFS: ");
+      scanf("%d", &source);
+      printf("\n");
+      printf("Starting DFS from node - %d\nDFS: ", source);
+      DFS(source, verticesMapping, graphMatrix, vertices, visited);
+      printf("\nDFS done !!\n");
+      resetVisited(visited);
+      clearQueue();
+      break;
+    case 2:
+      printf("Enter source node idx for BFS: ");
+      scanf("%d", &source);
+      printf("\n");
+      printf("Starting BFS from node - %d\nBFS: ", source);
+      BFS(source, verticesMapping, graphMatrix, vertices, visited);
+      printf("\nBFS done !!\n");
+      resetVisited(visited);
+      clearQueue();
+      break;
+    default:
+      printf("Invalid choice opted !!");
+      break;
+  }
+
   printf("\n");
 
-  printf("Enter source node idx for BFS: ");
-  scanf("%d", &source);
-  printf("\n");
-  printf("Starting BFS from node - %d\nBFS: ", source);
-  BFS(source, verticesMapping, graphMatrix, vertices, visited);
-  printf("\nBFS done !!\n");
-  resetVisited(visited);
-  clearQueue();
-  printf("\n");
-      
   return 0;
 }
