@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+</head>
+<body>
+    <h1>Dashboard</h1>
+    <h2 name="welcome" id="welcome"></h2>
+
+    <div>Student Table</div>
+    <table border=1>
+        <tr>
+            <th>Name</th>
+            <th>SAP</th>
+            <th>Gender</th>
+            <th colspan="2">Contact</th>
+        </tr>
+        <tr>
+            <td>Jake Tran</td>
+            <td>60003220199</td>
+            <td>Male</td>
+            <td>6453354232</td>
+            <td>9137352303</td>
+        </tr>
+        <tr>
+            <td>John Doe</td>
+            <td>60003220106</td>
+            <td>Male</td>
+            <td>9999999999</td>
+            <td>9999999139</td>
+        </tr>
+        <tr>
+            <td>Jenny Dutch</td>
+            <td>60003220111</td>
+            <td>Female</td>
+            <td>9999999889</td>
+            <td>0299999889</td>
+        </tr>
+    </table>
+</body>
+<script>
+    var param = new URLSearchParams(window.location.search)
+    document.getElementById('welcome').textContent = 
+    param.get('name') ? "Welcome "+param.get('name') : "Welcome"
+</script>
+</html>

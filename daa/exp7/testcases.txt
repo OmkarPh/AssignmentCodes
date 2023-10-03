@@ -1,0 +1,8 @@
+There are 1 solutions for n=1: 
+There are 0 solutions for n=2: 
+There are 0 solutions for n=3: 
+There are 2 solutions for n=4: 
+There are 10 solutions for n=5: 
+There are 4 solutions for n=6: 
+There are 40 solutions for n=7: 
+There are 92 solutions for n=8:

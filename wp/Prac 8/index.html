@@ -1,0 +1,23 @@
+<html>
+  <head>
+    <title>Login status</title>
+  </head>
+  <body>
+    <center>
+      <?php 
+                $conn = mysqli_connect("localhost", "root", "", "trial_1");
+                if ($conn === false){
+                    die("ERROR: Could not connect"
+                    .mysqli_connect_error());
+                }
+                $u_name1 = $_POST["uname"];
+                $password_1 = $_POST["pass"];
+                $sql = "SELECT password FROM account WHERE username = '$u_name1'";
+                $pass1 = $conn->query($sql)->fetch_assoc(); if
+      ($pass1["password"] == $password_1){ echo "
+      <h3>Logged in successfully</h3>
+      "; } else{ echo "Username or password is incorrect"; }
+      mysqli_close($conn); ?>
+    </center>
+  </body>
+</html>

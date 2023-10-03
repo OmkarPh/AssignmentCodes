@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="myscripts.js"></script>
+    <title>Signup Page</title>
+</head>
+<body>
+    <h1>Sign up Page</h1>
+
+    <form action="" onsubmit="signup(event)">
+        <label for="name">Enter Name: </label>
+        <input type="text" name="name" placeholder="John Doe" required>
+        <br>
+        <br>
+        <label for="gender">Select your gender: </label>
+        <select name="gender" id="gender" required>
+            <option value="">---select gender---</option>
+            <option value="Female">Female</option>
+            <option value="Male">Male</option>
+        </select>
+        <br>
+        <br>
+
+        <label for="dob">Date of Birth: </label>
+        <input type="date" name="dob">
+        <br>
+        <br>
+
+        <label for="nationality">Are you Indian?</label>
+        <br>
+        <label for="nationality">Yes:</label>
+        <input type="radio" value="yes" name="nationality" required>
+        &nbsp;&nbsp;&nbsp;
+        <label for="nationality">No:</label>
+        <input type="radio" value="no" name="nationality">
+        <br>
+        <br>
+        <input type="checkbox" name="agreeTerms" required >
+        <label for="checkbox">I agree to the terms and conditions</label>
+        <br>
+        <br>
+        <br>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>

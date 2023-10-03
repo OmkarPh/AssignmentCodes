@@ -1,0 +1,47 @@
+gcc -c lib_binarySearch.c -o lib_binarySearch.o 
+gcc -c lib_selectionSort.c -o lib_selectionSort.o 
+
+ar rcs lib_searchNsort.a lib_binarySearch.o lib_selectionSort.o
+
+gcc -c driver.c -o driver.o
+gcc -o driver driver.o -L. -l_searchNsort
+
+./driver
+
+
+
+Quick driver update:
+gcc -c driver.c -o driver.o && gcc -o driver driver.o -L. -l_searchNsort && ./driver
+
+
+
+
+
+
+Dynamic
+• Creation
+    Compiling the library C file:
+	gcc -c lib_binarySearch.c -fPIC -o lib_binarySearch.o 
+	gcc -c lib_selectionSort.c -fPIC -o lib_selectionSort.o 
+        
+    gcc -shared -o lib_searchNsort.so lib_binarySearch.o lib_selectionSort.o
+    
+    export the path for libraries: 
+    export LD_LIBRARY_PATH=$PWD:$LD_LIBRARY_PATH
+        
+• Usage
+    - Compile the driver program using the following command
+        gcc -c driver.c -o driver.o
+        gcc -L. -o driver driver.c -l_searchNsort 
+
+
+gcc -c lib_binarySearch.c -fPIC -o lib_binarySearch.o 
+gcc -c lib_selectionSort.c -fPIC -o lib_selectionSort.o 
+gcc -shared -o lib_searchNsort.so lib_selectionSort.o lib_binarySearch.o
+export LD_LIBRARY_PATH=$PWD:$LD_LIBRARY_PATH
+
+
+gcc -c driver.c -o driver.o
+gcc -L. -o driver driver.c -l_searchNsort 
+
+

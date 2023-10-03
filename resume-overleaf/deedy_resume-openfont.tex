@@ -1,0 +1,307 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Deedy - One Page Two Column Resume
+% LaTeX Template
+% Version 1.2 (16/9/2014)
+%
+% Original author:
+% Debarghya Das (http://debarghyadas.com)
+%
+% Original repository:
+% https://github.com/deedydas/Deedy-Resume
+%
+% IMPORTANT: THIS TEMPLATE NEEDS TO BE COMPILED WITH XeLaTeX
+%
+% This template uses several fonts not included with Windows/Linux by
+% default. If you get compilation errors saying a font is missing, find the line
+% on which the font is used and either change it to a font included with your
+% operating system or comment the line out to use the default font.
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 
+% TODO:
+% 1. Integrate biber/bibtex for article citation under publications.
+% 2. Figure out a smoother way for the document to flow onto the next page.
+% 3. Add styling information for a "Projects/Hacks" section.
+% 4. Add location/address information
+% 5. Merge OpenFont and MacFonts as a single sty with options.
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% CHANGELOG:
+% v1.1:
+% 1. Fixed several compilation bugs with \renewcommand
+% 2. Got Open-source fonts (Windows/Linux support)
+% 3. Added Last Updated
+% 4. Move Title styling into .sty
+% 5. Commented .sty file.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Known Issues:
+% 1. Overflows onto second page if any column's contents are more than the
+% vertical limit
+% 2. Hacky space on the first bullet point on the second column.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\documentclass[]{deedy-resume-openfont}
+\usepackage{fancyhdr}
+\usepackage{fontawesome}
+\usepackage{hyperref}
+\pagestyle{fancy}
+\fancyhf{}
+\def\altand{\&}
+ 
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     LAST UPDATED DATE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\lastupdated
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     TITLE NAME
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\namesection{Omkar}{Phansopkar}{ 
+\href{mailto:omkarphansopkar@gmail.com}{omkarphansopkar@gmail.com}  |  +91 7045270840  |  \href{https://github.com/OmkarPh}{github.com/OmkarPh}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN ONE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{minipage}[t]{0.37\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EDUCATION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Education} 
+\subsection{Sardar Patel Institute \\of Technology}
+\descript{BTech - CSE (Data Science)}
+Direct Second Year\\
+\location{2022 - Present | Mumbai, India}
+\sectionsep
+\vspace{0.1cm}
+\subsection{Government Polytechnic,\\ Mumbai}
+\descript{Diploma in Computer Engineering}
+\location{ 95.08 \% \space - \space 2019-22 | Mumbai, India}
+\sectionsep
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     LINKS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Links} 
+GitHub:// \href{https://github.com/OmkarPh}{\bf OmkarPh} \\
+LinkedIn://  \href{https://www.linkedin.com/in/omkarphansopkar}{\bf omkarphansopkar} \\
+Twitter:// \href{https://twitter.com/omkarphansopkar}{\bf omkarphansopkar} \\
+Email: // \href{mailto:omkarphansopkar@gmail.com}{\bf omkarphansopkar@gmail.com} \\
+\sectionsep
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     SKILLS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Skills}
+
+\subsection{Programming Languages}
+\textbullet{} C++ \hspace{0.15cm}
+\textbullet{} JavaScript {\&} TypeScript \\
+\textbullet{} Java \hspace{0.15cm}
+\textbullet{} Python \\
+\sectionsep
+
+
+\subsection{Technical}
+\textbullet{} ReactJS \hspace{0.15cm}
+\textbullet{} Node.js \hspace{0.15cm}
+\textbullet{} Electron \hspace{0.15cm}
+\textbullet{} SQL \\
+\textbullet{} ExpressJS \hspace{0.15cm}
+\textbullet{} MongoDB \hspace{0.15cm}
+\textbullet{} Solidity \\
+\sectionsep
+
+\subsection{Tools}
+\textbullet{} Git \hspace{0.15cm}
+\textbullet{} GitHub \hspace{0.15cm}
+\textbullet{} AWS \hspace{0.15cm}
+\textbullet{} Postman \\
+\sectionsep
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Achievements
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Achievements}
+\href{https://cic.niti.gov.in/fintech-open-month-hackathon.html#Winners}{
+    \subsection{3rd -  FINTECH OPEN MONTH \\HACKATHON \hspace{0.05cm} \faLink}
+}
+\\
+\descript{By \textbf{PhonePe, NITI Aayog, Amazon AWS}}
+Prj - \textbf{Althsis} 
+\space \href{https://github.com/code-squads/Althsis}{\faGithub}
+\space \href{https://devfolio.co/projects/althsis-30ca}{\underline{Devfolio}} \\
+All India rank \textbf{3} out of \textbf{$\sim$2600} participants.
+\sectionsep
+\vspace{0.05cm}
+
+
+\runsubsection{{
+\href{https://twitter.com/KardiaChain/status/1537479618252668928}
+{2nd - KARDIACHAIN PIONEER PROGRAM 2.0 \hspace{0.05cm} \faLink}
+}} \\
+\descript{By KardiaChain, Amazon AWS}
+Prj - \textbf{MedBlock} 
+\space \href{https://github.com/code-squads/medblock}{\faGithub} \\
+Global rank \textbf{3rd} in Existing project category
+\sectionsep
+\vspace{0.05cm}
+
+\runsubsection{{
+\lowercase{\href{https://gitcoin.co/issue/28604}}
+{2nd - Ready Player Casper \\ Hackathon \faLink}
+}} \\
+\descript{By Casper association}
+Prj - \textbf{Open Ocean}
+\space \href{https://github.com/OmkarPh/nftmarketplace}{\faGithub} \\
+NFT marketplace on Casper chain \\
+\textbf{2nd} - NFT marketplace bounty
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN TWO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{minipage} 
+\hfill
+\begin{minipage}[t]{0.605\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EXPERIENCE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Experience}
+
+% \href{https://summerofcode.withgoogle.com/programs/2022/projects/UHXR7kX}{
+%     \subsection{Google Summer of Code}
+% }
+% \runsubsection{\lowercase{\href{https://summerofcode.withgoogle.com/programs/2022/projects/UHXR7kXp}}{Google Summer of Code}}
+
+\runsubsection{Google Summer of Code}
+\descript{| Contributor @ \href{https://github.com/nexB/}{\underline{NexB}} }
+\location{May 2022 – Sept 2022 | Remote}
+\href{https://github.com/nexB/scancode-workbench}{\underline{Scancode Workbench}}
+is a Data visualization tool for JSON scans \\
+exported from Aboutcode's \underline{\href{https://github.com/nexB/scancode-toolkit}{Scancode-toolkit}}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightemize}
+\item Improved code-base: Monolithic JS -> React+Typescript
+\item Updated schema {\&} views to effectively support {\&} present scan data
+\item Optimized memory usage {\&} performance upto 35{\%} by revamping parser
+\item Refreshed UX {\&} navigation with a new intuitive design
+\item Streamlined release cycle using GitHub actions
+\end{tightemize}
+\sectionsep
+
+\runsubsection{LitWiz Labs}
+\descript{| Full stack developer }
+\location{Feb 2022 – Sept 2022 | Remote}
+\underline{\href{https://litwizlabs.ai/wizlabel}{WizLabel}}
+is a labelling {\&} data management platform for ML model training \\
+{ReactJS | Typescript | GraphQL}
+\begin{tightemize}
+\item Responsible for Image labeler {\&} collaboration feature 
+\item Led the labeling review workflow based on alpha testing reviews
+\item Achieved seamless integration of labeler with attributes of dataset
+\item Single-handedly created cloud connector feature(AWS) to import dataset
+\end{tightemize}
+\sectionsep
+
+\runsubsection{GeeksForGeeks}
+\descript{| Freelance Technical content writer}
+\location{Feb 2021 – Apr 2021 | Remote}
+\descript{\underline {\href{https://auth.geeksforgeeks.org/user/omkarphansopkar/articles}{Articles}}}
+Wrote {\&} improved articles on topics like Development tips, Data structures, smart contracts, etc on a freelance basis
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Projects
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Projects}
+
+\runsubsection{MedBlock}
+\descript{ReactJS, Solidity, IPFS
+\hspace{0.05cm}
+|
+\hspace{0.05cm}
+\href{https://medblock.netlify.app/}{\faGlobe} \hspace{0.1cm}
+\href{https://github.com/code-squads/medblock}{{{\bf \faGithub}}} \hspace{0.1cm}
+\href{https://youtu.be/zqB1ttYVSB0}
+{{\underline{\textcolor{blue}{\bf Video Demo}}}}
+}
+\descript{A decentralized medical records system}
+% \vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightemize}
+\item Individually created entire smart contract {\&} web3 integration
+\item Achieved media uploads using IPFS - PDF {\&} Images
+\item Achieved distributed control over the records to prevent misuse of authority
+\item Responsible for creating authorization {\&} high level APIs for other teammates
+\end{tightemize}
+\sectionsep
+
+
+\runsubsection{OP coin}
+\descript{ReactJS, Node.js, PubSub
+\hspace{0.05cm}
+|
+\hspace{0.05cm}
+\href{https://opcoin.herokuapp.com/}{\faGlobe} \hspace{0.1cm}
+\href{https://github.com/OmkarPh/opcoin}{{{\bf \faGithub}}} \hspace{0.1cm}
+}
+\descript{A Blockchain {\&} cryptocurrency implementation built from scratch}
+% \vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightemize}
+\item Implemented fundamental principles of blockchain and cryptocurrency from scratch
+\item Achieved seamless data sync across nodes using Publisher-Subscriber model
+\item File based caching {\&} persistence
+\end{tightemize}
+\sectionsep
+
+
+\runsubsection{Althsis}
+\descript{ReactJS, Node.js, SETU APIs
+\hspace{0.05cm}
+|
+\hspace{0.05cm}
+\href{https://althsis.netlify.app/}{\faGlobe} \hspace{0.1cm}
+\href{https://github.com/code-squads/Althsis}{{{\bf \faGithub}}} \hspace{0.1cm}
+\href{https://youtu.be/UlHINEyBOxQ}
+{{\underline{\textcolor{blue}{\bf Video Demo}}}}
+}
+% \vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightemize}
+\item Gets your financial insights in a single place
+\item Uses SETU aggregator APIs to fetch data on user consent
+\item Intuitive UI to get all transactions {\&} account details together
+\end{tightemize}
+\sectionsep
+
+% \end{tabular}
+% \sectionsep
+\end{minipage} 
+\end{document}  \documentclass[]{article}

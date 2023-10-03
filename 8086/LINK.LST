@@ -1,0 +1,60 @@
+Microsoft (R) Macro Assembler Version 5.00                  11/21/22 20:49:13
+                                                             Page     1-1
+
+
+       1				assume cs:code, ds:data 
+       2 0000				data segment 
+       3 0000  48 65 6C 6C 6F 20 57	        s1 db "Hello World$" 
+       4       6F 72 6C 64 24		
+       5 000C  04			        x db 4 
+       6 000D  03			        y db 3 
+       7 000E				data ends 
+       8				 
+       9 0000				code segment 
+      10				assume cs:code, ds:data 
+      11 0000				begin: 
+      12 0000  B8 ---- R		        mov ax, data 
+      13 0003  8E D8			        mov ds, ax 
+      14 0005  8D 16 0000 R		        lea dx, s1 
+      15				        ;mov dx, offset s1 
+      16 0009  B4 09			        mov ah, 9 
+      17 000B  CD 21			        int 21h 
+      18				 
+      19 000D  B4 4C			        mov ah,4ch 
+      20 000F  CD 21			        int 21h 
+      21 0011				code ends 
+      22				end begin 
+Microsoft (R) Macro Assembler Version 5.00                  11/21/22 20:49:13
+                                                             Symbols-1
+
+
+Segments and Groups:
+
+                N a m e         	Length	 Align	Combine Class
+
+CODE . . . . . . . . . . . . . .  	0011	PARA	NONE	
+DATA . . . . . . . . . . . . . .  	000E	PARA	NONE	
+
+Symbols:            
+
+                N a m e         	Type	 Value	 Attr
+
+BEGIN  . . . . . . . . . . . . .  	L NEAR	0000	CODE
+
+S1 . . . . . . . . . . . . . . .  	L BYTE	0000	DATA
+
+X  . . . . . . . . . . . . . . .  	L BYTE	000C	DATA
+
+Y  . . . . . . . . . . . . . . .  	L BYTE	000D	DATA
+
+@FILENAME  . . . . . . . . . . .  	TEXT  add		
+
+
+     21 Source  Lines
+     21 Total   Lines
+      8 Symbols
+
+  50686 + 465858 Bytes symbol space free
+
+      0 Warning Errors
+      0 Severe  Errors

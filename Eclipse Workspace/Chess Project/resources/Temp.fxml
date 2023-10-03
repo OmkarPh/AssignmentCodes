@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+
+<AnchorPane prefHeight="564.0" prefWidth="610.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <HBox layoutX="5.0" layoutY="4.0" prefHeight="75.0" prefWidth="600.0">
+         <children>
+            <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="75.0" prefWidth="75.0" style="-fx-border-width: 1px; -fx-border-color: black; -fx-border-radius: 5; -fx-background-color: #F5F5F5;" textAlignment="CENTER">
+               <effect>
+                  <DropShadow color="#6b5e5e" height="12.1" radius="4.75" spread="0.1" width="8.9" />
+               </effect>
+            </Label>
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="10.0" layoutY="10.0" prefHeight="75.0" prefWidth="75.0" style="-fx-border-width: 1px; -fx-border-color: black; -fx-border-radius: 5; -fx-background-color: #F4A460;" textAlignment="CENTER">
+               <effect>
+                  <DropShadow color="#6b5e5e" height="12.1" radius="4.75" spread="0.1" width="8.9" />
+               </effect>
+            </Label>
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="10.0" layoutY="10.0" prefHeight="75.0" prefWidth="75.0" style="-fx-border-width: 1px; -fx-border-color: black; -fx-border-radius: 5; -fx-background-color: #F5F5F5;" textAlignment="CENTER">
+               <effect>
+                  <DropShadow color="#6b5e5e" height="12.1" radius="4.75" spread="0.1" width="8.9" />
+               </effect>
+            </Label>
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="85.0" layoutY="10.0" prefHeight="75.0" prefWidth="75.0" style="-fx-border-width: 1px; -fx-border-color: black; -fx-border-radius: 5; -fx-background-color: #F4A460;" textAlignment="CENTER">
+               <effect>
+                  <DropShadow color="#6b5e5e" height="12.1" radius="4.75" spread="0.1" width="8.9" />
+               </effect>
+            </Label>
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="160.0" layoutY="10.0" prefHeight="75.0" prefWidth="75.0" style="-fx-border-width: 1px; -fx-border-color: black; -fx-border-radius: 5; -fx-background-color: #F5F5F5;" textAlignment="CENTER">
+               <effect>
+                  <DropShadow color="#6b5e5e" height="12.1" radius="4.75" spread="0.1" width="8.9" />
+               </effect>
+            </Label>
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="235.0" layoutY="10.0" prefHeight="75.0" prefWidth="75.0" style="-fx-border-width: 1px; -fx-border-color: black; -fx-border-radius: 5; -fx-background-color: #F4A460;" textAlignment="CENTER">
+               <effect>
+                  <DropShadow color="#6b5e5e" height="12.1" radius="4.75" spread="0.1" width="8.9" />
+               </effect>
+            </Label>
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="235.0" layoutY="10.0" prefHeight="75.0" prefWidth="75.0" style="-fx-border-width: 1px; -fx-border-color: black; -fx-border-radius: 5; -fx-background-color: #F5F5F5;" textAlignment="CENTER">
+               <effect>
+                  <DropShadow color="#6b5e5e" height="12.1" radius="4.75" spread="0.1" width="8.9" />
+               </effect>
+            </Label>
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="235.0" layoutY="10.0" prefHeight="75.0" prefWidth="75.0" style="-fx-border-width: 1px; -fx-border-color: black; -fx-border-radius: 5; -fx-background-color: #F4A460;" textAlignment="CENTER">
+               <effect>
+                  <DropShadow color="#6b5e5e" height="12.1" radius="4.75" spread="0.1" width="8.9" />
+               </effect>
+            </Label>
+         </children>
+      </HBox>
+      <HBox layoutX="5.0" layoutY="79.0" prefHeight="75.0" prefWidth="600.0">
+         <children>
+            <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="75.0" prefWidth="75.0" style="-fx-border-width: 1px; -fx-border-color: black; -fx-border-radius: 5; -fx-background-color: #F4A460;" textAlignment="CENTER">
+               <effect>
+                  <DropShadow color="#6b5e5e" height="12.1" radius="4.75" spread="0.1" width="8.9" />
+               </effect>
+            </Label>
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="10.0" layoutY="10.0" prefHeight="75.0" prefWidth="75.0" style="-fx-border-width: 1px; -fx-border-color: black; -fx-border-radius: 5; -fx-background-color: #F5F5F5;" textAlignment="CENTER">
+               <effect>
+                  <DropShadow color="#6b5e5e" height="12.1" radius="4.75" spread="0.1" width="8.9" />
+               </effect>
+            </Label>
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="10.0" layoutY="10.0" prefHeight="75.0" prefWidth="75.0" style="-fx-border-width: 1px; -fx-border-color: black; -fx-border-radius: 5; -fx-background-color: #F4A460;" textAlignment="CENTER">
+               <effect>
+                  <DropShadow color="#6b5e5e" height="12.1" radius="4.75" spread="0.1" width="8.9" />
+               </effect>
+            </Label>
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="160.0" layoutY="10.0" prefHeight="75.0" prefWidth="75.0" style="-fx-border-width: 1px; -fx-border-color: black; -fx-border-radius: 5; -fx-background-color: #F5F5F5;" textAlignment="CENTER">
+               <effect>
+                  <DropShadow color="#6b5e5e" height="12.1" radius="4.75" spread="0.1" width="8.9" />
+               </effect>
+            </Label>
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="235.0" layoutY="10.0" prefHeight="75.0" prefWidth="75.0" style="-fx-border-width: 1px; -fx-border-color: black; -fx-border-radius: 5; -fx-background-color: #F4A460;" textAlignment="CENTER">
+               <effect>
+                  <DropShadow color="#6b5e5e" height="12.1" radius="4.75" spread="0.1" width="8.9" />
+               </effect>
+            </Label>
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="235.0" layoutY="10.0" prefHeight="75.0" prefWidth="75.0" style="-fx-border-width: 1px; -fx-border-color: black; -fx-border-radius: 5; -fx-background-color: #F5F5F5;" textAlignment="CENTER">
+               <effect>
+                  <DropShadow color="#6b5e5e" height="12.1" radius="4.75" spread="0.1" width="8.9" />
+               </effect>
+            </Label>
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="235.0" layoutY="10.0" prefHeight="75.0" prefWidth="75.0" style="-fx-border-width: 1px; -fx-border-color: black; -fx-border-radius: 5; -fx-background-color: #F4A460;" textAlignment="CENTER">
+               <effect>
+                  <DropShadow color="#6b5e5e" height="12.1" radius="4.75" spread="0.1" width="8.9" />
+               </effect>
+            </Label>
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="85.0" layoutY="10.0" prefHeight="75.0" prefWidth="75.0" style="-fx-border-width: 1px; -fx-border-color: black; -fx-border-radius: 5; -fx-background-color: #F5F5F5;" textAlignment="CENTER">
+               <effect>
+                  <DropShadow color="#6b5e5e" height="12.1" radius="4.75" spread="0.1" width="8.9" />
+               </effect>
+            </Label>
+         </children>
+      </HBox>
+      <HBox layoutX="5.0" layoutY="154.0" prefHeight="75.0" prefWidth="600.0">
+         <children>
+            <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="75.0" prefWidth="75.0" style="-fx-border-width: 1px; -fx-border-color: black; -fx-border-radius: 5; -fx-background-color: #F5F5F5;" textAlignment="CENTER">
+               <effect>
+                  <DropShadow color="#6b5e5e" height="12.1" radius="4.75" spread="0.1" width="8.9" />
+               </effect>
+            </Label>
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="10.0" layoutY="10.0" prefHeight="75.0" prefWidth="75.0" style="-fx-border-width: 1px; -fx-border-color: black; -fx-border-radius: 5; -fx-background-color: #F4A460;" textAlignment="CENTER">
+               <effect>
+                  <DropShadow color="#6b5e5e" height="12.1" radius="4.75" spread="0.1" width="8.9" />
+               </effect>
+            </Label>
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="10.0" layoutY="10.0" prefHeight="75.0" prefWidth="75.0" style="-fx-border-width: 1px; -fx-border-color: black; -fx-border-radius: 5; -fx-background-color: #F5F5F5;" textAlignment="CENTER">
+               <effect>
+                  <DropShadow color="#6b5e5e" height="12.1" radius="4.75" spread="0.1" width="8.9" />
+               </effect>
+            </Label>
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="85.0" layoutY="10.0" prefHeight="75.0" prefWidth="75.0" style="-fx-border-width: 1px; -fx-border-color: black; -fx-border-radius: 5; -fx-background-color: #F4A460;" textAlignment="CENTER">
+               <effect>
+                  <DropShadow color="#6b5e5e" height="12.1" radius="4.75" spread="0.1" width="8.9" />
+               </effect>
+            </Label>
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="160.0" layoutY="10.0" prefHeight="75.0" prefWidth="75.0" style="-fx-border-width: 1px; -fx-border-color: black; -fx-border-radius: 5; -fx-background-color: #F5F5F5;" textAlignment="CENTER">
+               <effect>
+                  <DropShadow color="#6b5e5e" height="12.1" radius="4.75" spread="0.1" width="8.9" />
+               </effect>
+            </Label>
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="235.0" layoutY="10.0" prefHeight="75.0" prefWidth="75.0" style="-fx-border-width: 1px; -fx-border-color: black; -fx-border-radius: 5; -fx-background-color: #F4A460;" textAlignment="CENTER">
+               <effect>
+                  <DropShadow color="#6b5e5e" height="12.1" radius="4.75" spread="0.1" width="8.9" />
+               </effect>
+            </Label>
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="235.0" layoutY="10.0" prefHeight="75.0" prefWidth="75.0" style="-fx-border-width: 1px; -fx-border-color: black; -fx-border-radius: 5; -fx-background-color: #F5F5F5;" textAlignment="CENTER">
+               <effect>
+                  <DropShadow color="#6b5e5e" height="12.1" radius="4.75" spread="0.1" width="8.9" />
+               </effect>
+            </Label>
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="235.0" layoutY="10.0" prefHeight="75.0" prefWidth="75.0" style="-fx-border-width: 1px; -fx-border-color: black; -fx-border-radius: 5; -fx-background-color: #F4A460;" textAlignment="CENTER">
+               <effect>
+                  <DropShadow color="#6b5e5e" height="12.1" radius="4.75" spread="0.1" width="8.9" />
+               </effect>
+            </Label>
+         </children>
+      </HBox>
+      <HBox layoutX="5.0" layoutY="229.0" prefHeight="75.0" prefWidth="600.0">
+         <children>
+            <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="75.0" prefWidth="75.0" style="-fx-border-width: 1px; -fx-border-color: black; -fx-border-radius: 5; -fx-background-color: #F4A460;" textAlignment="CENTER">
+               <effect>
+                  <DropShadow color="#6b5e5e" height="12.1" radius="4.75" spread="0.1" width="8.9" />
+               </effect>
+            </Label>
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="10.0" layoutY="10.0" prefHeight="75.0" prefWidth="75.0" style="-fx-border-width: 1px; -fx-border-color: black; -fx-border-radius: 5; -fx-background-color: #F5F5F5;" textAlignment="CENTER">
+               <effect>
+                  <DropShadow color="#6b5e5e" height="12.1" radius="4.75" spread="0.1" width="8.9" />
+               </effect>
+            </Label>
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="10.0" layoutY="10.0" prefHeight="75.0" prefWidth="75.0" style="-fx-border-width: 1px; -fx-border-color: black; -fx-border-radius: 5; -fx-background-color: #F4A460;" textAlignment="CENTER">
+               <effect>
+                  <DropShadow color="#6b5e5e" height="12.1" radius="4.75" spread="0.1" width="8.9" />
+               </effect>
+            </Label>
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="160.0" layoutY="10.0" prefHeight="75.0" prefWidth="75.0" style="-fx-border-width: 1px; -fx-border-color: black; -fx-border-radius: 5; -fx-background-color: #F5F5F5;" textAlignment="CENTER">
+               <effect>
+                  <DropShadow color="#6b5e5e" height="12.1" radius="4.75" spread="0.1" width="8.9" />
+               </effect>
+            </Label>
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="235.0" layoutY="10.0" prefHeight="75.0" prefWidth="75.0" style="-fx-border-width: 1px; -fx-border-color: black; -fx-border-radius: 5; -fx-background-color: #F4A460;" textAlignment="CENTER">
+               <effect>
+                  <DropShadow color="#6b5e5e" height="12.1" radius="4.75" spread="0.1" width="8.9" />
+               </effect>
+            </Label>
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="235.0" layoutY="10.0" prefHeight="75.0" prefWidth="75.0" style="-fx-border-width: 1px; -fx-border-color: black; -fx-border-radius: 5; -fx-background-color: #F5F5F5;" textAlignment="CENTER">
+               <effect>
+                  <DropShadow color="#6b5e5e" height="12.1" radius="4.75" spread="0.1" width="8.9" />
+               </effect>
+            </Label>
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="235.0" layoutY="10.0" prefHeight="75.0" prefWidth="75.0" style="-fx-border-width: 1px; -fx-border-color: black; -fx-border-radius: 5; -fx-background-color: #F4A460;" textAlignment="CENTER">
+               <effect>
+                  <DropShadow color="#6b5e5e" height="12.1" radius="4.75" spread="0.1" width="8.9" />
+               </effect>
+            </Label>
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="85.0" layoutY="10.0" prefHeight="75.0" prefWidth="75.0" style="-fx-border-width: 1px; -fx-border-color: black; -fx-border-radius: 5; -fx-background-color: #F5F5F5;" textAlignment="CENTER">
+               <effect>
+                  <DropShadow color="#6b5e5e" height="12.1" radius="4.75" spread="0.1" width="8.9" />
+               </effect>
+            </Label>
+         </children>
+      </HBox>
+      <HBox layoutX="5.0" layoutY="304.0" prefHeight="75.0" prefWidth="600.0">
+         <children>
+            <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="75.0" prefWidth="75.0" style="-fx-border-width: 1px; -fx-border-color: black; -fx-border-radius: 5; -fx-background-color: #F5F5F5;" textAlignment="CENTER">
+               <effect>
+                  <DropShadow color="#6b5e5e" height="12.1" radius="4.75" spread="0.1" width="8.9" />
+               </effect>
+            </Label>
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="10.0" layoutY="10.0" prefHeight="75.0" prefWidth="75.0" style="-fx-border-width: 1px; -fx-border-color: black; -fx-border-radius: 5; -fx-background-color: #F4A460;" textAlignment="CENTER">
+               <effect>
+                  <DropShadow color="#6b5e5e" height="12.1" radius="4.75" spread="0.1" width="8.9" />
+               </effect>
+            </Label>
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="10.0" layoutY="10.0" prefHeight="75.0" prefWidth="75.0" style="-fx-border-width: 1px; -fx-border-color: black; -fx-border-radius: 5; -fx-background-color: #F5F5F5;" textAlignment="CENTER">
+               <effect>
+                  <DropShadow color="#6b5e5e" height="12.1" radius="4.75" spread="0.1" width="8.9" />
+               </effect>
+            </Label>
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="85.0" layoutY="10.0" prefHeight="75.0" prefWidth="75.0" style="-fx-border-width: 1px; -fx-border-color: black; -fx-border-radius: 5; -fx-background-color: #F4A460;" textAlignment="CENTER">
+               <effect>
+                  <DropShadow color="#6b5e5e" height="12.1" radius="4.75" spread="0.1" width="8.9" />
+               </effect>
+            </Label>
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="160.0" layoutY="10.0" prefHeight="75.0" prefWidth="75.0" style="-fx-border-width: 1px; -fx-border-color: black; -fx-border-radius: 5; -fx-background-color: #F5F5F5;" textAlignment="CENTER">
+               <effect>
+                  <DropShadow color="#6b5e5e" height="12.1" radius="4.75" spread="0.1" width="8.9" />
+               </effect>
+            </Label>
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="235.0" layoutY="10.0" prefHeight="75.0" prefWidth="75.0" style="-fx-border-width: 1px; -fx-border-color: black; -fx-border-radius: 5; -fx-background-color: #F4A460;" textAlignment="CENTER">
+               <effect>
+                  <DropShadow color="#6b5e5e" height="12.1" radius="4.75" spread="0.1" width="8.9" />
+               </effect>
+            </Label>
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="235.0" layoutY="10.0" prefHeight="75.0" prefWidth="75.0" style="-fx-border-width: 1px; -fx-border-color: black; -fx-border-radius: 5; -fx-background-color: #F5F5F5;" textAlignment="CENTER">
+               <effect>
+                  <DropShadow color="#6b5e5e" height="12.1" radius="4.75" spread="0.1" width="8.9" />
+               </effect>
+            </Label>
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="235.0" layoutY="10.0" prefHeight="75.0" prefWidth="75.0" style="-fx-border-width: 1px; -fx-border-color: black; -fx-border-radius: 5; -fx-background-color: #F4A460;" textAlignment="CENTER">
+               <effect>
+                  <DropShadow color="#6b5e5e" height="12.1" radius="4.75" spread="0.1" width="8.9" />
+               </effect>
+            </Label>
+         </children>
+      </HBox>
+      <HBox layoutX="5.0" layoutY="379.0" prefHeight="75.0" prefWidth="600.0">
+         <children>
+            <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="75.0" prefWidth="75.0" style="-fx-border-width: 1px; -fx-border-color: black; -fx-border-radius: 5; -fx-background-color: #F4A460;" textAlignment="CENTER">
+               <effect>
+                  <DropShadow color="#6b5e5e" height="12.1" radius="4.75" spread="0.1" width="8.9" />
+               </effect>
+            </Label>
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="10.0" layoutY="10.0" prefHeight="75.0" prefWidth="75.0" style="-fx-border-width: 1px; -fx-border-color: black; -fx-border-radius: 5; -fx-background-color: #F5F5F5;" textAlignment="CENTER">
+               <effect>
+                  <DropShadow color="#6b5e5e" height="12.1" radius="4.75" spread="0.1" width="8.9" />
+               </effect>
+            </Label>
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="10.0" layoutY="10.0" prefHeight="75.0" prefWidth="75.0" style="-fx-border-width: 1px; -fx-border-color: black; -fx-border-radius: 5; -fx-background-color: #F4A460;" textAlignment="CENTER">
+               <effect>
+                  <DropShadow color="#6b5e5e" height="12.1" radius="4.75" spread="0.1" width="8.9" />
+               </effect>
+            </Label>
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="160.0" layoutY="10.0" prefHeight="75.0" prefWidth="75.0" style="-fx-border-width: 1px; -fx-border-color: black; -fx-border-radius: 5; -fx-background-color: #F5F5F5;" textAlignment="CENTER">
+               <effect>
+                  <DropShadow color="#6b5e5e" height="12.1" radius="4.75" spread="0.1" width="8.9" />
+               </effect>
+            </Label>
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="235.0" layoutY="10.0" prefHeight="75.0" prefWidth="75.0" style="-fx-border-width: 1px; -fx-border-color: black; -fx-border-radius: 5; -fx-background-color: #F4A460;" textAlignment="CENTER">
+               <effect>
+                  <DropShadow color="#6b5e5e" height="12.1" radius="4.75" spread="0.1" width="8.9" />
+               </effect>
+            </Label>
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="235.0" layoutY="10.0" prefHeight="75.0" prefWidth="75.0" style="-fx-border-width: 1px; -fx-border-color: black; -fx-border-radius: 5; -fx-background-color: #F5F5F5;" textAlignment="CENTER">
+               <effect>
+                  <DropShadow color="#6b5e5e" height="12.1" radius="4.75" spread="0.1" width="8.9" />
+               </effect>
+            </Label>
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="235.0" layoutY="10.0" prefHeight="75.0" prefWidth="75.0" style="-fx-border-width: 1px; -fx-border-color: black; -fx-border-radius: 5; -fx-background-color: #F4A460;" textAlignment="CENTER">
+               <effect>
+                  <DropShadow color="#6b5e5e" height="12.1" radius="4.75" spread="0.1" width="8.9" />
+               </effect>
+            </Label>
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="85.0" layoutY="10.0" prefHeight="75.0" prefWidth="75.0" style="-fx-border-width: 1px; -fx-border-color: black; -fx-border-radius: 5; -fx-background-color: #F5F5F5;" textAlignment="CENTER">
+               <effect>
+                  <DropShadow color="#6b5e5e" height="12.1" radius="4.75" spread="0.1" width="8.9" />
+               </effect>
+            </Label>
+         </children>
+      </HBox>
+      <HBox layoutX="5.0" layoutY="454.0" prefHeight="75.0" prefWidth="600.0">
+         <children>
+            <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="75.0" prefWidth="75.0" style="-fx-border-width: 1px; -fx-border-color: black; -fx-border-radius: 5; -fx-background-color: #F5F5F5;" textAlignment="CENTER">
+               <effect>
+                  <DropShadow color="#6b5e5e" height="12.1" radius="4.75" spread="0.1" width="8.9" />
+               </effect>
+            </Label>
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="10.0" layoutY="10.0" prefHeight="75.0" prefWidth="75.0" style="-fx-border-width: 1px; -fx-border-color: black; -fx-border-radius: 5; -fx-background-color: #F4A460;" textAlignment="CENTER">
+               <effect>
+                  <DropShadow color="#6b5e5e" height="12.1" radius="4.75" spread="0.1" width="8.9" />
+               </effect>
+            </Label>
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="10.0" layoutY="10.0" prefHeight="75.0" prefWidth="75.0" style="-fx-border-width: 1px; -fx-border-color: black; -fx-border-radius: 5; -fx-background-color: #F5F5F5;" textAlignment="CENTER">
+               <effect>
+                  <DropShadow color="#6b5e5e" height="12.1" radius="4.75" spread="0.1" width="8.9" />
+               </effect>
+            </Label>
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="85.0" layoutY="10.0" prefHeight="75.0" prefWidth="75.0" style="-fx-border-width: 1px; -fx-border-color: black; -fx-border-radius: 5; -fx-background-color: #F4A460;" textAlignment="CENTER">
+               <effect>
+                  <DropShadow color="#6b5e5e" height="12.1" radius="4.75" spread="0.1" width="8.9" />
+               </effect>
+            </Label>
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="160.0" layoutY="10.0" prefHeight="75.0" prefWidth="75.0" style="-fx-border-width: 1px; -fx-border-color: black; -fx-border-radius: 5; -fx-background-color: #F5F5F5;" textAlignment="CENTER">
+               <effect>
+                  <DropShadow color="#6b5e5e" height="12.1" radius="4.75" spread="0.1" width="8.9" />
+               </effect>
+            </Label>
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="235.0" layoutY="10.0" prefHeight="75.0" prefWidth="75.0" style="-fx-border-width: 1px; -fx-border-color: black; -fx-border-radius: 5; -fx-background-color: #F4A460;" textAlignment="CENTER">
+               <effect>
+                  <DropShadow color="#6b5e5e" height="12.1" radius="4.75" spread="0.1" width="8.9" />
+               </effect>
+            </Label>
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="235.0" layoutY="10.0" prefHeight="75.0" prefWidth="75.0" style="-fx-border-width: 1px; -fx-border-color: black; -fx-border-radius: 5; -fx-background-color: #F5F5F5;" textAlignment="CENTER">
+               <effect>
+                  <DropShadow color="#6b5e5e" height="12.1" radius="4.75" spread="0.1" width="8.9" />
+               </effect>
+            </Label>
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="235.0" layoutY="10.0" prefHeight="75.0" prefWidth="75.0" style="-fx-border-width: 1px; -fx-border-color: black; -fx-border-radius: 5; -fx-background-color: #F4A460;" textAlignment="CENTER">
+               <effect>
+                  <DropShadow color="#6b5e5e" height="12.1" radius="4.75" spread="0.1" width="8.9" />
+               </effect>
+            </Label>
+         </children>
+      </HBox>
+      <HBox layoutX="5.0" layoutY="529.0" prefHeight="75.0" prefWidth="600.0">
+         <children>
+            <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="75.0" prefWidth="75.0" style="-fx-border-width: 1px; -fx-border-color: black; -fx-border-radius: 5; -fx-background-color: #F4A460;" textAlignment="CENTER">
+               <effect>
+                  <DropShadow color="#6b5e5e" height="12.1" radius="4.75" spread="0.1" width="8.9" />
+               </effect>
+            </Label>
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="10.0" layoutY="10.0" prefHeight="75.0" prefWidth="75.0" style="-fx-border-width: 1px; -fx-border-color: black; -fx-border-radius: 5; -fx-background-color: #F5F5F5;" textAlignment="CENTER">
+               <effect>
+                  <DropShadow color="#6b5e5e" height="12.1" radius="4.75" spread="0.1" width="8.9" />
+               </effect>
+            </Label>
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="10.0" layoutY="10.0" prefHeight="75.0" prefWidth="75.0" style="-fx-border-width: 1px; -fx-border-color: black; -fx-border-radius: 5; -fx-background-color: #F4A460;" textAlignment="CENTER">
+               <effect>
+                  <DropShadow color="#6b5e5e" height="12.1" radius="4.75" spread="0.1" width="8.9" />
+               </effect>
+            </Label>
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="160.0" layoutY="10.0" prefHeight="75.0" prefWidth="75.0" style="-fx-border-width: 1px; -fx-border-color: black; -fx-border-radius: 5; -fx-background-color: #F5F5F5;" textAlignment="CENTER">
+               <effect>
+                  <DropShadow color="#6b5e5e" height="12.1" radius="4.75" spread="0.1" width="8.9" />
+               </effect>
+            </Label>
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="235.0" layoutY="10.0" prefHeight="75.0" prefWidth="75.0" style="-fx-border-width: 1px; -fx-border-color: black; -fx-border-radius: 5; -fx-background-color: #F4A460;" textAlignment="CENTER">
+               <effect>
+                  <DropShadow color="#6b5e5e" height="12.1" radius="4.75" spread="0.1" width="8.9" />
+               </effect>
+            </Label>
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="235.0" layoutY="10.0" prefHeight="75.0" prefWidth="75.0" style="-fx-border-width: 1px; -fx-border-color: black; -fx-border-radius: 5; -fx-background-color: #F5F5F5;" textAlignment="CENTER">
+               <effect>
+                  <DropShadow color="#6b5e5e" height="12.1" radius="4.75" spread="0.1" width="8.9" />
+               </effect>
+            </Label>
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="235.0" layoutY="10.0" prefHeight="75.0" prefWidth="75.0" style="-fx-border-width: 1px; -fx-border-color: black; -fx-border-radius: 5; -fx-background-color: #F4A460;" textAlignment="CENTER">
+               <effect>
+                  <DropShadow color="#6b5e5e" height="12.1" radius="4.75" spread="0.1" width="8.9" />
+               </effect>
+            </Label>
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="85.0" layoutY="10.0" prefHeight="75.0" prefWidth="75.0" style="-fx-border-width: 1px; -fx-border-color: black; -fx-border-radius: 5; -fx-background-color: #F5F5F5;" textAlignment="CENTER">
+               <effect>
+                  <DropShadow color="#6b5e5e" height="12.1" radius="4.75" spread="0.1" width="8.9" />
+               </effect>
+            </Label>
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>

@@ -1,0 +1,24 @@
+Static
+
+gcc -c lib_complex.c -o lib_complex.o
+ar rcs lib_complex.a lib_complex.o
+
+gcc -c driver.c -o driver.o
+gcc -o driver driver.o -L. -l_complex
+
+
+
+
+Dynamic
+
+gcc lib_complex.c -c -fPIC -o lib_complex.o
+gcc -shared -o lib_complex.so lib_complex.o       (For mac -> gcc -dynamiclib -o lib_complex.so lib_complex.o)
+export LD_LIBRARY_PATH=$PWD:$LD_LIBRARY_PATH
+
+gcc -L. -o driver driver.c -l_complex 
+
+
+
+
+Other dir
+gcc -L. -o tst tst.c -l_complex 

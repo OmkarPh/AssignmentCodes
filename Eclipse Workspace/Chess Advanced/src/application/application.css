@@ -1,0 +1,11 @@
+.box{
+	-fx-border-width: 2px;
+	 -fx-border-color: black; 
+	 -fx-border-radius:4; 
+}
+.white{
+	-fx-background-color: #F5F5F5;
+}
+.black{
+	 -fx-background-color: #F4A460;
+}
