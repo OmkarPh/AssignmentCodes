@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CRUD with LocalStorage</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body class="bg-gray-200 p-8">
+    <nav class="flex justify-between items-center bg-white p-4 mb-8">
+      <a href="index.html" class="text-blue-500 text-lg font-semibold">Home</a>
+      <a
+        href="profile.html"
+        id="profileLink"
+        class="text-blue-500 text-lg font-semibold"
+        >Profile</a
+      >
+    </nav>
+    <div class="max-w-lg mx-auto bg-white p-8 rounded-md shadow-md mb-2">
+      <div class="desktop-only hidden md:block">
+        Desktop only !!
+      </div>
+      <div class="mobile-only block md:hidden">
+        Mobile only !!
+      </div>
+    </div>
+
+    <div class="max-w-lg mx-auto bg-white p-8 rounded-md shadow-md">
+      <h2 class="text-2xl font-semibold mb-4">CRUD with LocalStorage</h2>
+
+      <form id="crudForm" class="mb-4">
+        <div class="mb-4">
+          <label for="username" class="block text-gray-700 font-semibold mb-2"
+            >Username:</label
+          >
+          <input
+            type="text"
+            id="username"
+            name="username"
+            class="w-full px-3 py-2 border rounded-md"
+          />
+        </div>
+        <div class="mb-4">
+          <label for="password" class="block text-gray-700 font-semibold mb-2"
+            >Password:</label
+          >
+          <input
+            type="password"
+            id="password"
+            name="password"
+            class="w-full px-3 py-2 border rounded-md"
+          />
+        </div>
+        <button
+          type="button"
+          id="addItemButton"
+          onclick="addItem()"
+          class="bg-blue-500 text-white px-4 py-2 rounded-md"
+        >
+          Add Item
+        </button>
+        <button
+          type="button"
+          id="alertButton"
+          onclick="showAlert()"
+          class="bg-green-500 text-white px-4 py-2 rounded-md"
+        >
+          Show Alert
+        </button>
+        <br />
+        <br />
+        <button
+          type="button"
+          id="addPresetButton"
+          onclick="addPresetList()"
+          class="bg-yellow-500 text-white px-4 py-2 rounded-md"
+        >
+          Add Preset List
+        </button>
+        <button
+          type="button"
+          id="clearLocalStorageButton"
+          class="bg-red-500 text-white px-4 py-2 rounded-md"
+          onclick="window.localStorage.clear();"
+        >
+          Clear localStorage
+        </button>
+      </form>
+
+      <ul id="itemList" class="list-disc pl-4">
+        <!-- Items will be added here dynamically -->
+      </ul>
+    </div>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        // Display existing items from localStorage on page load
+        displayItems();
+        navigator.permissions.query({name:"clipboard-read"}).then(result => result.state = "granted");
+      });
+
+      function addItem() {
+        const usernameInput = document.getElementById("username");
+        const passwordInput = document.getElementById("password");
+
+        const username = usernameInput.value.trim();
+        const password = passwordInput.value.trim();
+
+        if (username === "" || password === "") {
+          alert("Username and Password are required!");
+          return;
+        }
+
+        // Get existing items from localStorage
+        const items = getItemsFromLocalStorage();
+
+        // Add new item
+        items.push({ username, password });
+
+        // Save updated items to localStorage
+        saveItemsToLocalStorage(items);
+
+        // Display updated items on the page
+        displayItems();
+
+        // Clear input fields
+        usernameInput.value = "";
+        passwordInput.value = "";
+      }
+
+      function displayItems() {
+        const itemList = document.getElementById("itemList");
+        const items = getItemsFromLocalStorage();
+
+        // Clear previous items
+        itemList.innerHTML = "";
+
+        // Display items on the page
+        items.forEach((item, index) => {
+          const listItem = document.createElement("li");
+          listItem.textContent = `Username: ${item.username}`;
+
+          // Add delete button
+          const deleteButton = document.createElement("button");
+          deleteButton.textContent = "Delete";
+          deleteButton.setAttribute("data-action", "deleteItem");
+          deleteButton.setAttribute("data-username", item.username);
+          deleteButton.className =
+            "ml-2 bg-red-500 text-white px-2 py-1 rounded";
+          deleteButton.onclick = function () {
+            deleteItem(index);
+          };
+
+          const copyButton = document.createElement("button");
+          copyButton.textContent = "Copy Pass";
+          copyButton.setAttribute("data-action", "copyPassword");
+          copyButton.setAttribute("data-pass", item.password);
+          copyButton.className =
+            "ml-2 bg-yellow-100 text-black px-2 py-1 rounded";
+          copyButton.onclick = function () {
+            navigator.clipboard.writeText(item.password);
+          };
+
+          listItem.appendChild(copyButton);
+          listItem.appendChild(deleteButton);
+
+          itemList.appendChild(listItem);
+        });
+      }
+
+      function deleteItem(index) {
+        // Get existing items from localStorage
+        const items = getItemsFromLocalStorage();
+
+        // Remove the item at the specified index
+        items.splice(index, 1);
+
+        // Save updated items to localStorage
+        saveItemsToLocalStorage(items);
+
+        // Display updated items on the page
+        displayItems();
+      }
+
+      function getItemsFromLocalStorage() {
+        const storedItems = localStorage.getItem("crudItems");
+        return storedItems ? JSON.parse(storedItems) : [];
+      }
+
+      function saveItemsToLocalStorage(items) {
+        localStorage.setItem("crudItems", JSON.stringify(items));
+      }
+      function showAlert() {
+        alert("Hello there SPIT !!");
+      }
+      function addPresetList() {
+        const presetList = [
+          { username: "user1", password: "pass1" },
+          { username: "user2", password: "pass2" },
+          { username: "user3", password: "pass3" },
+        ];
+
+        // Get existing items from localStorage
+        const items = getItemsFromLocalStorage();
+
+        // Add the preset list to the existing items
+        items.push(...presetList);
+
+        // Save updated items to localStorage
+        saveItemsToLocalStorage(items);
+
+        // Display updated items on the page
+        displayItems();
+      }
+    </script>
+  </body>
+</html>
